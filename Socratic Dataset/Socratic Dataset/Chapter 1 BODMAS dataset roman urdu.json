@@ -1,0 +1,3120 @@
+[
+  {
+    "id": "001",
+    "problem": "(9 - 8) × 18",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo ek simple sawal karte hain — (9 - 8) × 18. Tumhe kya lagta hai, pehle kya solve karna chahiye — minus ya multiply?",
+      "Student: Pehle multiply?",
+      "AI Teacher: Achha socha! Lekin yaad hai BODMAS rule? Usme pehle brackets solve karte hain, phir multiply. To chalo (9 - 8) karte hain. Kitna aata hai?",
+      "Student: 1.",
+      "AI Teacher: Bilkul sahi! Ab multiply karo 1 × 18. Kitna bana?",
+      "Student: 18.",
+      "AI Teacher: Wah! Bahut acha kaam. To final answer hai 18, pehle brackets phir multiply.",
+      "【ProblemID】:001",
+      "【Analysis】: BODMAS ke mutabiq pehle brackets solve karo: (9 - 8) = 1, phir 1 × 18 = 18."
+    ]
+  },
+  {
+    "id": "002",
+    "problem": "64 – (6 of 2) × 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo yeh solve karo — 64 – (6 of 2) × 3. Pehle kya karna chahiye?",
+      "Student: Shayad 6 of 2?",
+      "AI Teacher: Bilkul sahi! 'Of' ka matlab hota hai multiply. To 6 × 2 = 12. Ab bacha 64 – 12 × 3. Ab kya karenge?",
+      "Student: Multiply?",
+      "AI Teacher: Sahi! 12 × 3 = 36. Ab 64 – 36 kitna hota hai?",
+      "Student: 28.",
+      "AI Teacher: Wah, bilkul sahi! Final answer 28.",
+      "【ProblemID】:002",
+      "【Analysis】: 6 of 2 = 12, phir 12 × 3 = 36, akhir mein 64 – 36 = 28."
+    ]
+  },
+  {
+    "id": "003",
+    "problem": "135 ÷ 15 + 6 – 5 × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhte hain — 135 ÷ 15 + 6 – 5 × 2. Pehle kya karna chahiye?",
+      "Student: Division?",
+      "AI Teacher: Bilkul! 135 ÷ 15 = 9. Ab humein milta hai 9 + 6 – 5 × 2. Ab kya karein?",
+      "Student: Multiply?",
+      "AI Teacher: Sahi jawab! 5 × 2 = 10. Ab bacha 9 + 6 – 10.",
+      "Student: 15 – 10 = 5.",
+      "AI Teacher: Perfect! Final answer hai 5.",
+      "【ProblemID】:003",
+      "【Analysis】: Pehle division, phir multiplication, phir addition aur subtraction. Answer = 5."
+    ]
+  },
+  {
+    "id": "004",
+    "problem": "(8 + 20 ÷ 4) × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (8 + 20 ÷ 4) × 2 mein pehle kya solve karoge?",
+      "Student: Division inside bracket?",
+      "AI Teacher: Wah! 20 ÷ 4 = 5. Ab bracket ke andar (8 + 5) hai.",
+      "Student: 13.",
+      "AI Teacher: Sahi! Ab multiply 13 × 2.",
+      "Student: 26.",
+      "AI Teacher: Perfect! Final answer 26.",
+      "【ProblemID】:004",
+      "【Analysis】: Pehle division (20 ÷ 4 = 5), phir (8 + 5) = 13, aur 13 × 2 = 26."
+    ]
+  },
+  {
+    "id": "005",
+    "problem": "50 × 5 + (15 + 23)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo 50 × 5 + (15 + 23) solve karte hain. Pehle kya karna chahiye?",
+      "Student: Brackets?",
+      "AI Teacher: Sahi! (15 + 23) = 38. Ab 50 × 5 = 250.",
+      "Student: Ab 250 + 38 = 288.",
+      "AI Teacher: Wah! Bohat acha kaam.",
+      "【ProblemID】:005",
+      "【Analysis】: (15 + 23) = 38, 50 × 5 = 250, total 288."
+    ]
+  },
+  {
+    "id": "006",
+    "problem": "16 ÷ 2 + 5 × 4 – 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: 16 ÷ 2 + 5 × 4 – 2 solve karo.",
+      "Student: Pehle division?",
+      "AI Teacher: Bilkul sahi! 16 ÷ 2 = 8. Ab 8 + 5 × 4 – 2.",
+      "Student: 5 × 4 = 20.",
+      "AI Teacher: Bahut acha! Ab 8 + 20 – 2.",
+      "Student: 26.",
+      "AI Teacher: Wah! Final answer 26.",
+      "【ProblemID】:006",
+      "【Analysis】: 16 ÷ 2 = 8, 5 × 4 = 20, 8 + 20 – 2 = 26."
+    ]
+  },
+  {
+    "id": "007",
+    "problem": "(3 × 18) ÷ 3 of 2 + 105",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (3 × 18) ÷ 3 of 2 + 105 solve karte hain. Pehle kya karenge?",
+      "Student: Bracket?",
+      "AI Teacher: Sahi! (3 × 18) = 54. Ab 54 ÷ 3 of 2 + 105.",
+      "Student: 'Of' ka matlab multiply hota hai na?",
+      "AI Teacher: Bilkul! To 54 ÷ (3 × 2) = 54 ÷ 6 = 9.",
+      "Student: Phir 9 + 105 = 114.",
+      "AI Teacher: Wah, bilkul sahi! Final answer 114.",
+      "【ProblemID】:007",
+      "【Analysis】: 3 × 18 = 54, 3 of 2 = 6, 54 ÷ 6 = 9, 9 + 105 = 114."
+    ]
+  },
+  {
+    "id": "008",
+    "problem": "7 + (15 ÷ 3 + 5) × 4 – 20",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: 7 + (15 ÷ 3 + 5) × 4 – 20 solve karo.",
+      "Student: Pehle division — 15 ÷ 3 = 5.",
+      "AI Teacher: Bahut ache! Ab bracket mein (5 + 5) = 10.",
+      "Student: 10 × 4 = 40.",
+      "AI Teacher: Ab 7 + 40 – 20.",
+      "Student: 27.",
+      "AI Teacher: Wah, sahi jawab! Final answer 27.",
+      "【ProblemID】:008",
+      "【Analysis】: 15 ÷ 3 = 5, (5 + 5) = 10, 10 × 4 = 40, 7 + 40 – 20 = 27."
+    ]
+  },
+  {
+    "id": "009",
+    "problem": "5 × (15 – 10) – 20 of 3 ÷ 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo 5 × (15 – 10) – 20 of 3 ÷ 4 karte hain.",
+      "Student: Pehle bracket?",
+      "AI Teacher: Haan! (15 – 10) = 5. Ab 5 × 5 – 20 of 3 ÷ 4.",
+      "Student: Ab 'of' wale part mein multiply karte hain?",
+      "AI Teacher: Bilkul! 20 of 3 = 60. Ab bacha 25 – 60 ÷ 4.",
+      "Student: 60 ÷ 4 = 15, to 25 – 15 = 10.",
+      "AI Teacher: Perfect! Final answer 10.",
+      "【ProblemID】:009",
+      "【Analysis】: (15 – 10) = 5, 20 of 3 = 60, 60 ÷ 4 = 15, 25 – 15 = 10."
+    ]
+  },
+  {
+    "id": "010",
+    "problem": "(28 ÷ 4 + 5) × 4 – 11 of 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (28 ÷ 4 + 5) × 4 – 11 of 3 mein pehla step kya hai?",
+      "Student: Division — 28 ÷ 4 = 7.",
+      "AI Teacher: Bohat acha! Ab (7 + 5) × 4 – 11 of 3.",
+      "Student: (7 + 5) = 12. Phir 12 × 4 = 48.",
+      "AI Teacher: Ab 11 of 3 = 33, to 48 – 33 = ?",
+      "Student: 15!",
+      "AI Teacher: Wah! Bilkul sahi jawab.",
+      "【ProblemID】:010",
+      "【Analysis】: (28 ÷ 4 + 5) = 12, 12 × 4 = 48, 11 of 3 = 33, 48 – 33 = 15."
+    ]
+  },
+
+  {
+    "id": "011",
+    "problem": "A water tanker holds 24,541 litres of water. How much water will there be in 35 such tankers?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Chalo ek example karte hain. Agar ek tanker mein 24,541 litre paani hai aur total 35 tanker hain, to kya karna chahiye?",
+      "Student: Shayad add karte hain 35 dafa?",
+      "AI Teacher: Hmm, agar same cheez bar bar ho rahi ho to hum add karte hain ya multiply?",
+      "Student: Multiply karte hain!",
+      "AI Teacher: Bilkul sahi! To expression hoga 24,541 × 35. Chalo guess karo, lag bhag kitna hoga?",
+      "Student: Shayad 7 lakh ke aas paas?",
+      "AI Teacher: Bahut acha! Exact answer hai 858,935 litre paani.",
+      "【ProblemID】:011",
+      "【Analysis】: 24,541 × 35 = 858,935 litre paani."
+    ]
+  },
+  {
+    "id": "012",
+    "problem": "A box contains 30 chalks. How many such boxes are required to pack 24,660 chalks?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Hamare paas 24,660 chalks hain aur ek dabba 30 chalks rakhta hai. Ab batayein kya karna chahiye?",
+      "Student: Multiply 24,660 × 30?",
+      "AI Teacher: Socho, hum total ko bada kar rahe hain ya chhoti groups mein baant rahe hain?",
+      "Student: Baant rahe hain!",
+      "AI Teacher: Sahi! To hume divide karna chahiye. 24,660 ÷ 30 = ?",
+      "Student: 822?",
+      "AI Teacher: Bilkul sahi! 822 dabbe lagenge.",
+      "【ProblemID】:012",
+      "【Analysis】: 24,660 ÷ 30 = 822 dabbe."
+    ]
+  },
+  {
+    "id": "013",
+    "problem": "A factory produces 1,245 pens in one day. How many pens will it produce in 28 days?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Factory ek din mein 1,245 pens banati hai. 28 din ke liye kya karna chahiye?",
+      "Student: Add 1,245 twenty-eight times?",
+      "AI Teacher: Nahi nahi! Jab same cheez repeat hoti hai to hum kya karte hain?",
+      "Student: Multiply!",
+      "AI Teacher: Bilkul sahi! To 1,245 × 28 = ?",
+      "Student: 34,860 pens!",
+      "AI Teacher: Wah! Bilkul sahi jawab.",
+      "【ProblemID】:013",
+      "【Analysis】: 1,245 × 28 = 34,860 pens."
+    ]
+  },
+  {
+    "id": "014",
+    "problem": "A book costs Rs. 125. What will be the cost of 245 such books?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Agar ek kitab Rs.125 ki hai to 245 kitabain lene par kya karna hoga?",
+      "Student: Multiply 125 × 245.",
+      "AI Teacher: Sahi! To guess karo, lag bhag kitna hoga?",
+      "Student: Rs.30,000 ke aas paas?",
+      "AI Teacher: Bohat ache! Exact cost hai Rs.30,625.",
+      "【ProblemID】:014",
+      "【Analysis】: 125 × 245 = Rs.30,625."
+    ]
+  },
+  {
+    "id": "015",
+    "problem": "A shopkeeper sells 425 eggs daily. How many eggs will he sell in 48 days?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Har din 425 anday bikte hain. 48 din ke liye kya karna hoga?",
+      "Student: 425 ÷ 48?",
+      "AI Teacher: Nahi, hum total nikal rahe hain, to kya karenge?",
+      "Student: Multiply 425 × 48!",
+      "AI Teacher: Sahi jawab! Total 20,400 anday.",
+      "Student: Wah, bohot zyada!",
+      "AI Teacher: Haan, isi liye multiply kaafi kaam aata hai!",
+      "【ProblemID】:015",
+      "【Analysis】: 425 × 48 = 20,400 anday."
+    ]
+  },
+  {
+    "id": "016",
+    "problem": "There are 3,672 students in a school. They are divided equally into 24 sections. How many students will be in each section?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: 3,672 students hain aur 24 sections. Kya karna chahiye?",
+      "Student: Multiply 3,672 × 24?",
+      "AI Teacher: Socho — hum students ko equally baant rahe hain ya groups bana rahe hain?",
+      "Student: Equally baant rahe hain.",
+      "AI Teacher: To kya karna chahiye?",
+      "Student: Divide! 3,672 ÷ 24 = 153 students.",
+      "AI Teacher: Bilkul sahi!",
+      "【ProblemID】:016",
+      "【Analysis】: 3,672 ÷ 24 = 153 students per section."
+    ]
+  },
+  {
+    "id": "017",
+    "problem": "A bus can carry 65 passengers. How many passengers can 128 buses carry together?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Agar ek bus 65 passengers leti hai, 128 buses ke liye kya karna hoga?",
+      "Student: Add 65 128 dafa?",
+      "AI Teacher: Haha, woh to bahut time lagayega! Kya operation short hota hai?",
+      "Student: Multiply 65 × 128.",
+      "AI Teacher: Bilkul! To total 8,320 passengers honge.",
+      "【ProblemID】:017",
+      "【Analysis】: 65 × 128 = 8,320 passengers."
+    ]
+  },
+  {
+    "id": "018",
+    "problem": "A farmer packs 360 apples equally into 12 baskets. How many apples will there be in each basket?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: 360 apples hain aur 12 tokriyan. Kya karna hoga?",
+      "Student: Multiply 360 × 12?",
+      "AI Teacher: Nahi, wo apples ko equally divide kar raha hai. Kya karna chahiye?",
+      "Student: Oh! Divide 360 ÷ 12!",
+      "AI Teacher: Sahi! To har tokri mein 30 apples.",
+      "【ProblemID】:018",
+      "【Analysis】: 360 ÷ 12 = 30 apples per basket."
+    ]
+  },
+  {
+    "id": "019",
+    "problem": "A truck carries 125 cartons. Each carton has 24 bottles. How many bottles are there in 125 cartons?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Agar har carton mein 24 bottles hain aur total 125 carton hain, kya karna hoga?",
+      "Student: Divide?",
+      "AI Teacher: Nahi, hum total nikal rahe hain — to kya karte hain jab equal groups add karte hain?",
+      "Student: Multiply!",
+      "AI Teacher: Bilkul sahi. 125 × 24 = 3,000 bottles.",
+      "【ProblemID】:019",
+      "【Analysis】: 125 × 24 = 3,000 bottles."
+    ]
+  },
+  {
+    "id": "020",
+    "problem": "A man earns Rs. 2,475 per week. How much will he earn in 52 weeks?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Multiplication and Division",
+    "conversation": [
+      "AI Teacher: Agar ek aadmi Rs.2,475 har hafte kamata hai, to poore saal ka paisa kaise nikalein?",
+      "Student: Divide karte hain?",
+      "AI Teacher: Socho, paisa har hafte badhta ja raha hai na?",
+      "Student: Haan!",
+      "AI Teacher: To multiply karte hain! 2,475 × 52 = Rs.128,700.",
+      "Student: Wah sir, itna zyada!",
+      "AI Teacher: Haan beta, mehnat se paisa badhta hai!",
+      "【ProblemID】:020",
+      "【Analysis】: 2,475 × 52 = Rs.128,700."
+    ]
+  }
+    {
+    "id": "021",
+    "problem": "Rashid bought 3 boxes of apples, each containing 12 apples. He ate 4 apples and then shared the rest equally among 4 friends. How many apples did each friend get?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Socho zara, pehle kya karna chahiye — multiply, subtract ya divide?",
+      "Student: Pehle subtract?",
+      "AI Teacher: Thoda sa close! Lekin BODMAS rule ke mutabiq pehle multiplication hoti hai. Toh 3 × 12 = 36 apples total.",
+      "Student: Acha, phir usne 4 kha liye, toh 36 - 4 = 32.",
+      "AI Teacher: Bilkul sahi! Ab 32 apples ko 4 doston mein barabar baantte hain. 32 ÷ 4 = 8. Har dost ko 8 apples mile!",
+      "【ProblemID】:021",
+      "【Analysis】: Pehle multiplication (3×12=36), phir subtraction (36−4=32), aur akhir mein division (32÷4=8)."
+    ]
+  },
+  {
+    "id": "022",
+    "problem": "Sara solved 48 ÷ (6 + 2) × 3. What is her answer?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Batao, Sara ko pehle kya karna chahiye — divide ya brackets solve?",
+      "Student: Pehle divide?",
+      "AI Teacher: Nahi beta! Pehle brackets. (6 + 2) = 8.",
+      "Student: Oh, toh 48 ÷ 8 × 3?",
+      "AI Teacher: Bilkul! 48 ÷ 8 = 6, aur phir 6 × 3 = 18.",
+      "Student: Toh final answer 18 hua.",
+      "AI Teacher: Shabash! Sara ka answer sahi hai — 18.",
+      "【ProblemID】:022",
+      "【Analysis】: Brackets pehle (6+2=8), phir division (48÷8=6), aur multiplication (6×3=18)."
+    ]
+  },
+  {
+    "id": "023",
+    "problem": "In a bakery, 120 muffins are divided equally among 6 trays. Each tray is then decorated with 5 cherries on each muffin. How many cherries are used in total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo step by step karte hain. Pehle kya nikalna chahiye?",
+      "Student: Har tray mein kitne muffins hain?",
+      "AI Teacher: Bilkul! 120 ÷ 6 = 20 muffins per tray. Ab har muffin pe 5 cherries hain, toh 20 × 5 = 100 cherries per tray.",
+      "Student: Aur 6 trays hain, toh 100 × 6 = 600 cherries total!",
+      "AI Teacher: Wah! Bohat acha jawab!",
+      "【ProblemID】:023",
+      "【Analysis】: Pehle division (120÷6=20), phir multiplication (20×5=100), phir 100×6=600 total cherries."
+    ]
+  },
+  {
+    "id": "024",
+    "problem": "A shopkeeper sells 15 pencils in each box. He sells 6 boxes in one day and earns Rs. 5 on each pencil. How much does he earn in total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo socho, pehle kya karna chahiye?",
+      "Student: 6 × 5?",
+      "AI Teacher: Nahi beta, pehle total pencils nikaalte hain. 15 pencils per box aur 6 boxes hain, toh 15 × 6 = 90 pencils.",
+      "Student: Phir 90 × 5 = 450!",
+      "AI Teacher: Sahi jawab! Usne total Rs. 450 kamaye.",
+      "【ProblemID】:024",
+      "【Analysis】: Pehle 15×6=90, phir 90×5=450."
+    ]
+  },
+  {
+    "id": "025",
+    "problem": "(25 + 15) × 2 – 10 ÷ 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo beta, step by step solve karte hain. Pehle kya karoge?",
+      "Student: Multiply?",
+      "AI Teacher: Check karo, pehle brackets! (25 + 15) = 40. Ab 40 × 2 = 80.",
+      "Student: Phir 10 ÷ 2 = 5.",
+      "AI Teacher: Sahi! Ab 80 – 5 = 75.",
+      "Student: Final answer 75!",
+      "AI Teacher: Shabash! Bilkul theek.",
+      "【ProblemID】:025",
+      "【Analysis】: Brackets (25+15=40), phir multiply (40×2=80), divide (10÷2=5), aur subtract (80–5=75)."
+    ]
+  },
+  {
+    "id": "026",
+    "problem": "Ali solved 50 – (10 + 4 × 2). What is the correct answer?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhte hain, brackets ke andar pehle kya karna chahiye?",
+      "Student: 10 + 4 = 14?",
+      "AI Teacher: Thoda galat! Multiplication pehle hoti hai — 4 × 2 = 8, phir 10 + 8 = 18.",
+      "Student: Ohh, toh 50 – 18 = 32.",
+      "AI Teacher: Bilkul sahi! Answer hai 32.",
+      "【ProblemID】:026",
+      "【Analysis】: Pehle brackets mein multiply (4×2=8), phir addition (10+8=18), phir subtraction (50–18=32)."
+    ]
+  },
+  {
+    "id": "027",
+    "problem": "(6 + 3) × 5 – 8 ÷ 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Pehle kya solve karna chahiye?",
+      "Student: Brackets pehle — (6 + 3) = 9.",
+      "AI Teacher: Wah! Ab 9 × 5 = 45, aur 8 ÷ 4 = 2.",
+      "Student: Toh 45 – 2 = 43.",
+      "AI Teacher: Perfect! Answer hai 43.",
+      "【ProblemID】:027",
+      "【Analysis】: Brackets (6+3=9), multiply (9×5=45), divide (8÷4=2), subtract (45–2=43)."
+    ]
+  },
+  {
+    "id": "028",
+    "problem": "A basket contains 30 oranges. Each orange costs Rs. 25, and a 10% discount is given. Find the total cost after discount.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo pehle total cost nikaalte hain discount se pehle.",
+      "Student: 30 × 25 = 750.",
+      "AI Teacher: Sahi! Ab 10% of 750 = 75. Matlab Rs. 75 ka discount.",
+      "Student: Toh 750 – 75 = 675.",
+      "AI Teacher: Excellent! Total cost Rs. 675 hui discount ke baad.",
+      "【ProblemID】:028",
+      "【Analysis】: 30×25=750, 10% of 750=75, 750–75=675."
+    ]
+  },
+  {
+    "id": "029",
+    "problem": "If 12 students share 4 boxes of chocolates equally, and each box has 36 chocolates, how many chocolates does each student get?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo beta, pehle total chocolates nikaalte hain.",
+      "Student: 4 × 36 = 144.",
+      "AI Teacher: Sahi! Ab 144 ÷ 12 = 12.",
+      "Student: Toh har student ko 12 chocolates mili!",
+      "AI Teacher: Wah! Bilkul perfect.",
+      "【ProblemID】:029",
+      "【Analysis】: Pehle multiply (4×36=144), phir divide (144÷12=12)."
+    ]
+  },
+  {
+    "id": "030",
+    "problem": "Solve: 18 + 12 ÷ 3 × 2 – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Step by step karte hain, pehle kya karoge?",
+      "Student: Addition?",
+      "AI Teacher: Nahi! BODMAS ke mutabiq pehle division aur multiplication hoti hai. 12 ÷ 3 = 4, phir 4 × 2 = 8.",
+      "Student: Ab 18 + 8 – 4 = 22.",
+      "AI Teacher: Wah beta! Final answer 22 hai.",
+      "【ProblemID】:030",
+      "【Analysis】: Division (12÷3=4), multiplication (4×2=8), addition aur subtraction (18+8–4=22)."
+    ]
+  }
+    {
+    "id": "031",
+    "problem": "(12 + 6) × 3 – 8 ÷ 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo ye solve karte hain — (12 + 6) × 3 – 8 ÷ 2. Pehle kya karna chahiye?",
+      "Student: Multiply?",
+      "AI Teacher: Nahi beta, pehle bracket! (12 + 6) = kitna hota hai?",
+      "Student: 18.",
+      "AI Teacher: Bohat accha! Ab 18 × 3 = 54, aur 8 ÷ 2 = 4.",
+      "Student: 54 – 4 = 50.",
+      "AI Teacher: Wah! Sahi jawab — 50.",
+      "【ProblemID】:031",
+      "【Analysis】: Pehle bracket solve karo (12 + 6 = 18), phir multiply (18 × 3 = 54), phir division (8 ÷ 2 = 4), aur akhir mein subtraction (54 – 4 = 50)."
+    ]
+  },
+  {
+    "id": "032",
+    "problem": "90 – (12 ÷ 3) + (8 × 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ab ye karo — 90 – (12 ÷ 3) + (8 × 2). Pehle kya solve karte hain?",
+      "Student: Division?",
+      "AI Teacher: Bilkul sahi! 12 ÷ 3 = 4 aur 8 × 2 = 16.",
+      "Student: Toh 90 – 4 + 16 = 102?",
+      "AI Teacher: Haan, lekin step by step: pehle 90 – 4 = 86, phir +16 = 102.",
+      "Student: Oh samajh gaya! Final answer 102.",
+      "AI Teacher: Shabaash! Bilkul sahi.",
+      "【ProblemID】:032",
+      "【Analysis】: 12 ÷ 3 = 4, 8 × 2 = 16, phir 90 – 4 + 16 = 102."
+    ]
+  },
+  {
+    "id": "033",
+    "problem": "(45 – 15) ÷ 5 × 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekhte hain (45 – 15) ÷ 5 × 3. Pehle kya karna chahiye?",
+      "Student: Subtract — 45 – 15 = 30.",
+      "AI Teacher: Sahi! Ab 30 ÷ 5 × 3.",
+      "Student: Divide pehle, right?",
+      "AI Teacher: Bilkul! 30 ÷ 5 = 6, phir 6 × 3 = 18.",
+      "Student: Answer 18!",
+      "AI Teacher: Zindabad, bilkul sahi!",
+      "【ProblemID】:033",
+      "【Analysis】: (45 – 15) = 30, 30 ÷ 5 = 6, phir 6 × 3 = 18."
+    ]
+  },
+  {
+    "id": "034",
+    "problem": "72 ÷ (6 × 2) + 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo 72 ÷ (6 × 2) + 5. Pehle kya karoge?",
+      "Student: Bracket pehle — 6 × 2 = 12.",
+      "AI Teacher: Bohat accha! Ab 72 ÷ 12 = ?",
+      "Student: 6.",
+      "AI Teacher: Sahi! Ab 6 + 5 = 11.",
+      "AI Teacher: Wah! Final answer 11.",
+      "【ProblemID】:034",
+      "【Analysis】: Pehle (6 × 2) = 12, phir 72 ÷ 12 = 6, aur 6 + 5 = 11."
+    ]
+  },
+  {
+    "id": "035",
+    "problem": "(20 + 10) × (8 – 5)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (20 + 10) × (8 – 5) karte hain. Pehle kya solve karte hain?",
+      "Student: Dono brackets!",
+      "AI Teacher: Bilkul! (20 + 10) = 30 aur (8 – 5) = 3.",
+      "Student: Phir 30 × 3 = 90.",
+      "AI Teacher: Wah! Final answer 90.",
+      "【ProblemID】:035",
+      "【Analysis】: (20 + 10) = 30, (8 – 5) = 3, 30 × 3 = 90."
+    ]
+  },
+  {
+    "id": "036",
+    "problem": "(5 × 8) + (16 ÷ 4) – 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ye try karo — (5 × 8) + (16 ÷ 4) – 10.",
+      "Student: Pehle brackets, (5 × 8) = 40 aur (16 ÷ 4) = 4.",
+      "AI Teacher: Sahi ja rahe ho! Ab 40 + 4 – 10 = ?",
+      "Student: 34.",
+      "AI Teacher: Wah! Bilkul sahi.",
+      "【ProblemID】:036",
+      "【Analysis】: (5 × 8) = 40, (16 ÷ 4) = 4, 40 + 4 – 10 = 34."
+    ]
+  },
+  {
+    "id": "037",
+    "problem": "50 – {8 × (2 + 3)}",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Is sawal mein do brackets hain! 50 – {8 × (2 + 3)} solve karo.",
+      "Student: Pehle inner bracket — (2 + 3) = 5.",
+      "AI Teacher: Sahi! Ab 8 × 5 = 40, phir 50 – 40 = ?",
+      "Student: 10.",
+      "AI Teacher: Shabaash! Final answer 10.",
+      "【ProblemID】:037",
+      "【Analysis】: (2 + 3) = 5, 8 × 5 = 40, 50 – 40 = 10."
+    ]
+  },
+  {
+    "id": "038",
+    "problem": "6 × [4 + (12 ÷ 3)]",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain — 6 × [4 + (12 ÷ 3)]. Pehle kya karte hain?",
+      "Student: Inner bracket pehle — 12 ÷ 3 = 4.",
+      "AI Teacher: Bohat accha! Ab [4 + 4] = 8, phir 6 × 8 = ?",
+      "Student: 48!",
+      "AI Teacher: Wah! Sahi jawab 48.",
+      "【ProblemID】:038",
+      "【Analysis】: (12 ÷ 3) = 4, [4 + 4] = 8, 6 × 8 = 48."
+    ]
+  },
+  {
+    "id": "039",
+    "problem": "(25 ÷ 5) × (6 + 9 – 8)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekhte hain (25 ÷ 5) × (6 + 9 – 8). Pehle kya karna chahiye?",
+      "Student: Dusre bracket mein — 6 + 9 = 15, phir 15 – 8 = 7.",
+      "AI Teacher: Sahi! Ab (25 ÷ 5) = 5.",
+      "Student: Phir 5 × 7 = 35.",
+      "AI Teacher: Perfect! Final answer 35.",
+      "【ProblemID】:039",
+      "【Analysis】: (25 ÷ 5) = 5, (6 + 9 – 8) = 7, 5 × 7 = 35."
+    ]
+  },
+  {
+    "id": "040",
+    "problem": "100 ÷ (5 × 2) + (12 – 4)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain 100 ÷ (5 × 2) + (12 – 4). Pehle kya karoge?",
+      "Student: Brackets pehle — 5 × 2 = 10, aur (12 – 4) = 8.",
+      "AI Teacher: Great! Ab 100 ÷ 10 = 10, phir 10 + 8 = 18.",
+      "Student: Final answer 18!",
+      "AI Teacher: Bohat khoob! Sahi jawab.",
+      "【ProblemID】:040",
+      "【Analysis】: (5 × 2) = 10, (12 – 4) = 8, 100 ÷ 10 + 8 = 18."
+    ]
+  }
+    {
+    "id": "041",
+    "problem": "Ali bought 4 boxes of pencils. Each box has 12 pencils. He gave 8 pencils to his friend. How many pencils does he have left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo is sawal ko mil ke solve karte hain. Ali ne 4 boxes khareeday jismein har box mein 12 pencils hain. Sabse pehle kya karna chahiye?",
+      "Student: 4 × 12 = 48 pencils.",
+      "AI Teacher: Bilkul sahi! Ab usne 8 pencils dost ko de di. Ab kya karenge?",
+      "Student: Minus karte hain — 48 – 8 = 40.",
+      "AI Teacher: Shabash! Toh Ali ke paas 40 pencils bach gayi.",
+      "【ProblemID】:041",
+      "【Analysis】: Pehle multiply (4 × 12 = 48), phir subtract (48 – 8 = 40). Final answer = 40 pencils."
+    ]
+  },
+  {
+    "id": "042",
+    "problem": "A factory produces 15 bottles per hour. How many bottles will it produce in 6 hours if 10 bottles are damaged and thrown away?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Factory har ghante mein 15 bottles banati hai aur 6 ghante ka kaam hai. Pehle kya karna chahiye?",
+      "Student: 15 × 6 = 90 bottles.",
+      "AI Teacher: Bohat ache! Ab 10 bottles toot gayi, kya karenge?",
+      "Student: Subtract — 90 – 10 = 80.",
+      "AI Teacher: Bilkul sahi! Factory ke paas 80 bottles bachi hain.",
+      "【ProblemID】:042",
+      "【Analysis】: Pehle multiply (15 × 6 = 90), phir subtract (90 – 10 = 80)."
+    ]
+  },
+  {
+    "id": "043",
+    "problem": "A shopkeeper had 120 candies. He packed them equally in 8 bags and sold 3 bags. How many candies does he have left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Shopkeeper ke paas 120 candies hain. Unhein 8 bags mein equally pack kiya. Pehle kya karenge?",
+      "Student: 120 ÷ 8 = 15 candies per bag.",
+      "AI Teacher: Bohat khoob! Ab usne 3 bags bech diye. Kitni candies bechi gayi?",
+      "Student: 3 × 15 = 45.",
+      "AI Teacher: Ab subtract karo — 120 – 45 = 75.",
+      "Student: Matlab 75 candies bachi!",
+      "AI Teacher: Bilkul! Sahi jawab.",
+      "【ProblemID】:043",
+      "【Analysis】: Divide (120 ÷ 8 = 15), multiply (3 × 15 = 45), subtract (120 – 45 = 75)."
+    ]
+  },
+  {
+    "id": "044",
+    "problem": "Sara read 6 pages each day for 5 days, then read 10 more on Sunday. How many pages did she read in total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Sara har din 6 pages padhti thi 5 din tak. Kitne pages huay?",
+      "Student: 6 × 5 = 30 pages.",
+      "AI Teacher: Bohat ache! Ab Sunday ko usne 10 aur padhe. Ab total kitne hue?",
+      "Student: 30 + 10 = 40 pages.",
+      "AI Teacher: Wah! Sara ne total 40 pages padhe.",
+      "【ProblemID】:044",
+      "【Analysis】: Multiply (6 × 5 = 30), phir add (30 + 10 = 40)."
+    ]
+  },
+  {
+    "id": "045",
+    "problem": "A packet contains 9 biscuits. If Ali buys 7 packets and gives 6 biscuits to his sister, how many biscuits does he have left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek packet mein 9 biscuits hain aur Ali ne 7 packets liye. Pehle kya karenge?",
+      "Student: 9 × 7 = 63 biscuits.",
+      "AI Teacher: Bilkul! Ab usne 6 biscuits behen ko diye. Kitne bache?",
+      "Student: 63 – 6 = 57 biscuits.",
+      "AI Teacher: Shabash! Final answer 57 biscuits.",
+      "【ProblemID】:045",
+      "【Analysis】: Multiply (9 × 7 = 63), subtract (63 – 6 = 57)."
+    ]
+  },
+  {
+    "id": "046",
+    "problem": "A water tank holds 245 liters of water. If it fills 3 tanks and then uses 120 liters, how much water remains in total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Har tank mein 245 liters paani hai aur 3 tanks bhare gaye. Pehle kya karenge?",
+      "Student: 245 × 3 = 735 liters.",
+      "AI Teacher: Bohat badhiya! Ab 120 liters use ho gaya. Kitna paani bacha?",
+      "Student: 735 – 120 = 615 liters.",
+      "AI Teacher: Sahi jawab! 615 liters paani bacha.",
+      "【ProblemID】:046",
+      "【Analysis】: Multiply (245 × 3 = 735), subtract (735 – 120 = 615)."
+    ]
+  },
+  {
+    "id": "047",
+    "problem": "A baker makes 36 cakes daily. In 5 days, he sells 120 cakes. How many cakes are left unsold?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Baker har din 36 cakes banata hai. 5 din mein total kitne bane?",
+      "Student: 36 × 5 = 180 cakes.",
+      "AI Teacher: Sahi! Ab usne 120 cakes bech diye. Kitne bache?",
+      "Student: 180 – 120 = 60 cakes.",
+      "AI Teacher: Bohat acha! 60 cakes bache hain.",
+      "【ProblemID】:047",
+      "【Analysis】: Multiply (36 × 5 = 180), subtract (180 – 120 = 60)."
+    ]
+  },
+  {
+    "id": "048",
+    "problem": "A bus travels 120 km daily for 4 days, then 80 km on the fifth day. What is the total distance it travels?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Bus har din 120 km chalti hai 4 din tak. Pehle total distance nikalo.",
+      "Student: 120 × 4 = 480 km.",
+      "AI Teacher: Great! Ab 5th din 80 km aur chali. Total kitna hua?",
+      "Student: 480 + 80 = 560 km.",
+      "AI Teacher: Shabash! Total 560 km travel hua.",
+      "【ProblemID】:048",
+      "【Analysis】: Multiply (120 × 4 = 480), add (480 + 80 = 560)."
+    ]
+  },
+  {
+    "id": "049",
+    "problem": "A school has 8 classrooms with 25 students in each. If 30 students go on a trip, how many remain in school?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: School mein 8 classrooms hain aur har class mein 25 students hain. Total students kitne hue?",
+      "Student: 8 × 25 = 200 students.",
+      "AI Teacher: Ab 30 students trip pe gaye. Kitne bache school mein?",
+      "Student: 200 – 30 = 170.",
+      "AI Teacher: Sahi! 170 students school mein hain.",
+      "【ProblemID】:049",
+      "【Analysis】: Multiply (8 × 25 = 200), subtract (200 – 30 = 170)."
+    ]
+  },
+  {
+    "id": "050",
+    "problem": "There are 5 shelves. Each shelf has 20 books. If 15 books are removed and 10 new books are added, how many books are there now?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: 5 shelves hain, har shelf mein 20 books hain. Pehle total books nikalo.",
+      "Student: 5 × 20 = 100 books.",
+      "AI Teacher: Achha! Ab 15 books hata di gayi. Kya karenge?",
+      "Student: 100 – 15 = 85.",
+      "AI Teacher: Ab 10 books aur add karte hain.",
+      "Student: 85 + 10 = 95.",
+      "AI Teacher: Wah! Total 95 books hain ab.",
+      "【ProblemID】:050",
+      "【Analysis】: Multiply (5 × 20 = 100), subtract (100 – 15 = 85), add (85 + 10 = 95)."
+    ]
+  }
+    {
+    "id": "051",
+    "problem": "If 15 chocolates are packed in one box, how many chocolates will there be in 8 such boxes, after removing 12 chocolates?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo pehle yeh samajhte hain. Ek box mein 15 chocolates hain aur total 8 boxes hain. Pehle kya karna chahiye?",
+      "Student: 15 × 8 = 120.",
+      "AI Teacher: Bilkul sahi! Ab 12 chocolates hata di gayi. Ab kitni bachi?",
+      "Student: 120 - 12 = 108.",
+      "AI Teacher: Wah, sahi jawab! Pehle multiply, phir subtraction — total 108 chocolates bachi.",
+      "【ProblemID】:051",
+      "【Analysis】: Pehle 15 × 8 = 120, phir 120 - 12 = 108."
+    ]
+  },
+  {
+    "id": "052",
+    "problem": "A shopkeeper sells 45 pencils at Rs. 5 each. He then buys 2 boxes of 10 pencils each for Rs. 60 total. What is his total earning?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Shopkeeper ne 45 pencils bechi hain Rs. 5 per pencil ke hisaab se. Pehle total kamaai nikalte hain.",
+      "Student: 45 × 5 = 225.",
+      "AI Teacher: Achha! Ab usne naye pencils Rs. 60 mein khareede. Ab kya karenge?",
+      "Student: Subtract karte hain — 225 - 60 = 165.",
+      "AI Teacher: Shandar! Uski final earning Rs. 165 hui.",
+      "【ProblemID】:052",
+      "【Analysis】: Pehle 45 × 5 = 225, phir 225 - 60 = 165."
+    ]
+  },
+  {
+    "id": "053",
+    "problem": "(12 + 6) × 3 – 8 ÷ 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Is sawal mein (12 + 6) × 3 – 8 ÷ 4 likha hai. Pehle kya karna chahiye?",
+      "Student: Bracket ka addition!",
+      "AI Teacher: Bilkul! (12 + 6) = 18. Ab 18 × 3 – 8 ÷ 4.",
+      "Student: Division next, 8 ÷ 4 = 2.",
+      "AI Teacher: Sahi! Ab 18 × 3 – 2 = ?",
+      "Student: 54 – 2 = 52.",
+      "AI Teacher: Bohat khoob! Final answer 52.",
+      "【ProblemID】:053",
+      "【Analysis】: (12 + 6) = 18, 8 ÷ 4 = 2, 18 × 3 – 2 = 52."
+    ]
+  },
+  {
+    "id": "054",
+    "problem": "A teacher bought 6 bundles of 25 notebooks each and gave 20 notebooks to students. How many are left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Teacher ne 6 bundles liye jisme har bundle mein 25 notebooks hain. Pehle total notebooks nikalte hain.",
+      "Student: 6 × 25 = 150.",
+      "AI Teacher: Ab usne 20 notebooks students ko de di. Ab kya karenge?",
+      "Student: 150 - 20 = 130.",
+      "AI Teacher: Bilkul sahi! 130 notebooks bachi hain.",
+      "【ProblemID】:054",
+      "【Analysis】: Pehle 6 × 25 = 150, phir 150 - 20 = 130."
+    ]
+  },
+  {
+    "id": "055",
+    "problem": "(72 ÷ 8) + 9 × 2 – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Batao, sabse pehle kya karte hain — divide, multiply ya add?",
+      "Student: Pehle divide! 72 ÷ 8 = 9.",
+      "AI Teacher: Shabash! Ab 9 + 9 × 2 – 5.",
+      "Student: Ab multiply — 9 × 2 = 18.",
+      "AI Teacher: Sahi! Ab 9 + 18 – 5 = ?",
+      "Student: 27 – 5 = 22.",
+      "AI Teacher: Wah! Final answer 22.",
+      "【ProblemID】:055",
+      "【Analysis】: 72 ÷ 8 = 9, 9 × 2 = 18, 9 + 18 – 5 = 22."
+    ]
+  },
+  {
+    "id": "056",
+    "problem": "A bakery baked 240 cupcakes. They packed them equally into 8 boxes and sold each box for Rs. 150. What was the total earning?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Bakery ne 240 cupcakes banaye aur 8 boxes mein equally rakhe. Pehle har box mein kitne cupcakes hain?",
+      "Student: 240 ÷ 8 = 30.",
+      "AI Teacher: Bilkul! Ab har box Rs. 150 ka becha gaya. Total kamaai kya hui?",
+      "Student: 8 × 150 = 1200.",
+      "AI Teacher: Sahi jawab! Bakery ne Rs. 1200 earn kiye.",
+      "【ProblemID】:056",
+      "【Analysis】: 240 ÷ 8 = 30, 8 × 150 = 1200."
+    ]
+  },
+  {
+    "id": "057",
+    "problem": "(25 + 15) × 2 – 18 ÷ 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Batao, pehla step kya hoga?",
+      "Student: Bracket mein addition — 25 + 15 = 40.",
+      "AI Teacher: Bohat acha! Ab 40 × 2 – 18 ÷ 3.",
+      "Student: Ab division — 18 ÷ 3 = 6.",
+      "AI Teacher: Sahi! Ab 80 – 6 = ?",
+      "Student: 74.",
+      "AI Teacher: Wah! Tumne sahi kiya. Final answer 74.",
+      "【ProblemID】:057",
+      "【Analysis】: (25 + 15) = 40, 18 ÷ 3 = 6, 40 × 2 – 6 = 74."
+    ]
+  },
+  {
+    "id": "058",
+    "problem": "A library has 12 shelves with 35 books on each. They donated 50 books to another school. How many books remain?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Pehle total books nikalte hain. Har shelf mein 35 books hain aur total 12 shelves.",
+      "Student: 12 × 35 = 420.",
+      "AI Teacher: Ab 50 books donate kar di gayi. Kitni bachi?",
+      "Student: 420 - 50 = 370.",
+      "AI Teacher: Bilkul! Library ke paas 370 books reh gayi.",
+      "【ProblemID】:058",
+      "【Analysis】: 12 × 35 = 420, 420 - 50 = 370."
+    ]
+  },
+  {
+    "id": "059",
+    "problem": "60 ÷ (5 + 1) × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo, isko solve karte hain. 60 ÷ (5 + 1) × 2. Bracket mein kya aayega?",
+      "Student: (5 + 1) = 6.",
+      "AI Teacher: Sahi! Ab 60 ÷ 6 × 2.",
+      "Student: 60 ÷ 6 = 10.",
+      "AI Teacher: Ab 10 × 2 = 20.",
+      "Student: Final answer 20!",
+      "AI Teacher: Shabash! Bilkul sahi.",
+      "【ProblemID】:059",
+      "【Analysis】: (5 + 1) = 6, 60 ÷ 6 = 10, 10 × 2 = 20."
+    ]
+  },
+  {
+    "id": "060",
+    "problem": "(36 ÷ 6 + 8) × 3 – 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Is sawal ko step by step karte hain — (36 ÷ 6 + 8) × 3 – 10. Pehle kya karna chahiye?",
+      "Student: Pehle division — 36 ÷ 6 = 6.",
+      "AI Teacher: Sahi! Ab bracket mein 6 + 8 = 14.",
+      "Student: Ab 14 × 3 = 42.",
+      "AI Teacher: Ab 42 – 10 = 32.",
+      "Student: Matlab final answer 32!",
+      "AI Teacher: Bilkul! Tumne BODMAS sahi follow kiya.",
+      "【ProblemID】:060",
+      "【Analysis】: (36 ÷ 6 + 8) = 14, 14 × 3 = 42, 42 – 10 = 32."
+    ]
+  }
+    {
+    "id": "061",
+    "problem": "A farmer packs 24 apples in one basket. If he has 10 baskets and sells 36 apples, how many apples remain?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo start karte hain — 24 apples ek basket mein hain aur total 10 baskets. Pehle kya karna chahiye?",
+      "Student: Multiply! 24 × 10 = 240.",
+      "AI Teacher: Bilkul sahi! Ab usne 36 apples bech diye, ab kya karenge?",
+      "Student: 240 - 36 = 204.",
+      "AI Teacher: Wah! Toh 204 apples bach gaye.",
+      "【ProblemID】:061",
+      "【Analysis】: 24 × 10 = 240, 240 - 36 = 204."
+    ]
+  },
+  {
+    "id": "062",
+    "problem": "(40 ÷ 5) × (3 + 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (40 ÷ 5) × (3 + 2) mein pehle kya solve karte hain?",
+      "Student: Brackets!",
+      "AI Teacher: Bilkul! 40 ÷ 5 = 8, aur (3 + 2) = 5. Ab kya karenge?",
+      "Student: Multiply 8 × 5 = 40.",
+      "AI Teacher: Bohat badhiya! Final answer 40 hai.",
+      "【ProblemID】:062",
+      "【Analysis】: (40 ÷ 5) = 8, (3 + 2) = 5, 8 × 5 = 40."
+    ]
+  },
+  {
+    "id": "063",
+    "problem": "Ali had Rs. 500. He bought 3 books for Rs. 75 each and 2 pencils for Rs. 20 each. How much money does he have left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhte hain Ali ne books pe kitne paise kharch kiye.",
+      "Student: 3 × 75 = 225.",
+      "AI Teacher: Sahi! Aur pencils pe?",
+      "Student: 2 × 20 = 40.",
+      "AI Teacher: Toh total kharch = 225 + 40 = 265. Ab 500 me se minus karte hain?",
+      "Student: 500 - 265 = 235.",
+      "AI Teacher: Wah! Ali ke paas Rs. 235 bach gaye.",
+      "【ProblemID】:063",
+      "【Analysis】: (3 × 75) + (2 × 20) = 265, 500 - 265 = 235."
+    ]
+  },
+  {
+    "id": "064",
+    "problem": "48 ÷ 4 × (6 + 2) - 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain — 48 ÷ 4 × (6 + 2) - 5. Pehle kya karenge?",
+      "Student: Brackets — (6 + 2) = 8.",
+      "AI Teacher: Sahi! Ab 48 ÷ 4 = 12. Agla step?",
+      "Student: 12 × 8 = 96.",
+      "AI Teacher: Bohat accha! Ab minus 5 karte hain.",
+      "Student: 96 - 5 = 91.",
+      "AI Teacher: Shabash! Final answer 91 hai.",
+      "【ProblemID】:064",
+      "【Analysis】: (6 + 2) = 8, 48 ÷ 4 = 12, 12 × 8 - 5 = 91."
+    ]
+  },
+  {
+    "id": "065",
+    "problem": "A car travels 45 km in one hour. How far will it travel in 5 hours if it stops for 15 minutes after every 2 hours?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Batao total travel time breaks ke baad kitna hua?",
+      "Student: 5 hours mein do 15-min breaks hain, toh 5 - (30 ÷ 60) = 4.5 hours.",
+      "AI Teacher: Bohat smart! Ab distance = speed × time.",
+      "Student: 45 × 4.5 = 202.5 km.",
+      "AI Teacher: Excellent! Car ne 202.5 km cover kiye.",
+      "【ProblemID】:065",
+      "【Analysis】: Total time = 5 - 0.5 = 4.5 hrs, distance = 45 × 4.5 = 202.5 km."
+    ]
+  },
+  {
+    "id": "066",
+    "problem": "(120 ÷ 6) + 15 × 2 - 18 ÷ 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (120 ÷ 6) + 15 × 2 - 18 ÷ 3 mein pehle kya karte hain?",
+      "Student: Division — 120 ÷ 6 = 20 aur 18 ÷ 3 = 6.",
+      "AI Teacher: Sahi kaha! Ab 20 + 15 × 2 - 6.",
+      "Student: Multiplication next — 15 × 2 = 30.",
+      "AI Teacher: Ab 20 + 30 - 6 = ?",
+      "Student: 44.",
+      "AI Teacher: Perfect! Final answer 44 hai.",
+      "【ProblemID】:066",
+      "【Analysis】: 120 ÷ 6 = 20, 18 ÷ 3 = 6, 15 × 2 = 30, 20 + 30 - 6 = 44."
+    ]
+  },
+  {
+    "id": "067",
+    "problem": "A factory makes 125 bottles per hour. In 8 hours, it makes bottles worth Rs. 20 each. Find the total value of all bottles.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Pehle batao total bottles kitni bani?",
+      "Student: 125 × 8 = 1000.",
+      "AI Teacher: Bohat accha! Ab har bottle Rs. 20 ki hai, total value?",
+      "Student: 1000 × 20 = 20000.",
+      "AI Teacher: Wah! Total value Rs. 20,000 hai.",
+      "【ProblemID】:067",
+      "【Analysis】: 125 × 8 = 1000, 1000 × 20 = 20,000."
+    ]
+  },
+  {
+    "id": "068",
+    "problem": "60 + (18 ÷ 3) × 2 - 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo — 60 + (18 ÷ 3) × 2 - 4. Pehle kya karna hai?",
+      "Student: Bracket division — 18 ÷ 3 = 6.",
+      "AI Teacher: Sahi! Ab 6 × 2 = 12. Ab add aur minus karte hain.",
+      "Student: 60 + 12 - 4 = 68.",
+      "AI Teacher: Wah! Final answer 68 hai.",
+      "【ProblemID】:068",
+      "【Analysis】: 18 ÷ 3 = 6, 6 × 2 = 12, 60 + 12 - 4 = 68."
+    ]
+  },
+  {
+    "id": "069",
+    "problem": "Ali bought 3 pens for Rs. 25 each and 4 notebooks for Rs. 60 each. If he had Rs. 500, how much is left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Pehle batao Ali ne pens pe kitna kharch kiya?",
+      "Student: 3 × 25 = 75.",
+      "AI Teacher: Aur notebooks pe?",
+      "Student: 4 × 60 = 240.",
+      "AI Teacher: Total kharch 75 + 240 = 315. Ab 500 me se minus karo.",
+      "Student: 500 - 315 = 185.",
+      "AI Teacher: Bohat accha! Rs. 185 bach gaye.",
+      "【ProblemID】:069",
+      "【Analysis】: (3 × 25) + (4 × 60) = 315, 500 - 315 = 185."
+    ]
+  },
+  {
+    "id": "070",
+    "problem": "(48 ÷ 4) + 3 × (10 - 5)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (48 ÷ 4) + 3 × (10 - 5) mein pehle kya karna hai?",
+      "Student: Bracket subtraction — 10 - 5 = 5.",
+      "AI Teacher: Great! Ab 48 ÷ 4 = 12. Agla step?",
+      "Student: 3 × 5 = 15.",
+      "AI Teacher: Ab 12 + 15 = 27.",
+      "Student: Mil gaya! Final answer 27.",
+      "AI Teacher: Excellent kaam!",
+      "【ProblemID】:070",
+      "【Analysis】: (48 ÷ 4) = 12, (10 - 5) = 5, 3 × 5 = 15, 12 + 15 = 27."
+    ]
+  }
+    {
+    "id": "071",
+    "problem": "(6 + 9) × 2 – 10 ÷ 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (6 + 9) × 2 – 10 ÷ 5. Pehle kya karna chahiye?",
+      "Student: Bracket ka kaam pehle? 6 + 9 = 15.",
+      "AI Teacher: Bilkul sahi! Ab 15 × 2 – 10 ÷ 5 bacha. Ab kya karein?",
+      "Student: Pehle multiply aur phir divide?",
+      "AI Teacher: Haan, left se right jaate hain. 15 × 2 = 30, aur 10 ÷ 5 = 2.",
+      "Student: Toh 30 – 2 = 28.",
+      "AI Teacher: Bohat khoob! Jawab hai 28.",
+      "【ProblemID】:071",
+      "【Analysis】: Pehle (6 + 9) = 15, phir 15 × 2 = 30, 10 ÷ 5 = 2, aur 30 – 2 = 28."
+    ]
+  },
+  {
+    "id": "072",
+    "problem": "A factory makes 40 toys every hour. In 6 hours, 30 toys are damaged. How many good toys remain?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Pehle yeh batao, 1 ghante mein 40 toys bante hain. 6 ghante mein kitne bane?",
+      "Student: 40 × 6 = 240.",
+      "AI Teacher: Shabash! Ab 30 toot gaye, toh ache wale kitne bachay?",
+      "Student: 240 – 30 = 210.",
+      "AI Teacher: Bilkul sahi! 210 toys ache hain.",
+      "【ProblemID】:072",
+      "【Analysis】: 40 × 6 = 240, 240 – 30 = 210."
+    ]
+  },
+  {
+    "id": "073",
+    "problem": "(12 × 3) + (16 ÷ 4) – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhein (12 × 3) + (16 ÷ 4) – 5. Pehle kya karna hai?",
+      "Student: Bracket ke andar multiply aur divide.",
+      "AI Teacher: Bilkul! 12 × 3 = 36 aur 16 ÷ 4 = 4. Ab kya?",
+      "Student: 36 + 4 – 5 = 35.",
+      "AI Teacher: Bohat acha, jawab hai 35!",
+      "【ProblemID】:073",
+      "【Analysis】: (12 × 3) = 36, (16 ÷ 4) = 4, 36 + 4 – 5 = 35."
+    ]
+  },
+  {
+    "id": "074",
+    "problem": "Ali bought 5 boxes of juice, each containing 12 bottles. If each bottle costs Rs. 30, how much did he spend?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ali ne 5 boxes juice ke liye, har box mein 12 bottles hain. Total bottles kitni hui?",
+      "Student: 5 × 12 = 60 bottles.",
+      "AI Teacher: Har bottle Rs. 30 ki hai, toh total paisa kitna?",
+      "Student: 60 × 30 = 1800.",
+      "AI Teacher: Wah! Rs. 1800 total kharch hue.",
+      "【ProblemID】:074",
+      "【Analysis】: 5 × 12 = 60, 60 × 30 = 1800."
+    ]
+  },
+  {
+    "id": "075",
+    "problem": "[(18 ÷ 3) + (12 ÷ 2)] × 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekho [(18 ÷ 3) + (12 ÷ 2)] × 4. Pehle kya karte hain?",
+      "Student: Dono brackets ke andar division karte hain.",
+      "AI Teacher: Sahi! 18 ÷ 3 = 6 aur 12 ÷ 2 = 6. Ab?",
+      "Student: 6 + 6 = 12.",
+      "AI Teacher: Phir 12 × 4 = 48.",
+      "Student: Jawab hai 48.",
+      "AI Teacher: Bilkul theek!",
+      "【ProblemID】:075",
+      "【Analysis】: 18 ÷ 3 = 6, 12 ÷ 2 = 6, (6 + 6) × 4 = 48."
+    ]
+  },
+  {
+    "id": "076",
+    "problem": "Sara buys 3 packs of pencils with 8 pencils in each pack and gives away 10 pencils to her friends. How many does she have left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Sara ne 3 pack liye jisme 8 pencils har pack mein hain. Total pencils kitni hui?",
+      "Student: 3 × 8 = 24.",
+      "AI Teacher: Usne 10 dost ko de di, toh kitni bach gayi?",
+      "Student: 24 - 10 = 14.",
+      "AI Teacher: Bilkul sahi! 14 pencils bachi.",
+      "【ProblemID】:076",
+      "【Analysis】: 3 × 8 = 24, 24 - 10 = 14."
+    ]
+  },
+  {
+    "id": "077",
+    "problem": "(45 ÷ 9) × (3 + 4) - 6",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (45 ÷ 9) × (3 + 4) - 6. Pehle kya karoge?",
+      "Student: Division — 45 ÷ 9 = 5.",
+      "AI Teacher: Sahi! Ab bracket (3 + 4) = 7.",
+      "Student: Phir 5 × 7 = 35.",
+      "AI Teacher: Aur aakhir mein 35 - 6 = 29.",
+      "Student: Jawab hai 29!",
+      "AI Teacher: Wah, bohat acha!",
+      "【ProblemID】:077",
+      "【Analysis】: 45 ÷ 9 = 5, (3 + 4) = 7, 5 × 7 - 6 = 29."
+    ]
+  },
+  {
+    "id": "078",
+    "problem": "A shopkeeper earns Rs. 200 per day. In 5 days, he earns a bonus of Rs. 150. What’s his total income?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Shopkeeper ek din mein Rs. 200 kamata hai. 5 din mein kitna hua?",
+      "Student: 200 × 5 = 1000.",
+      "AI Teacher: Ab bonus Rs. 150 mila, total?",
+      "Student: 1000 + 150 = 1150.",
+      "AI Teacher: Bilkul! Uska total income Rs. 1150 hai.",
+      "【ProblemID】:078",
+      "【Analysis】: 200 × 5 = 1000, 1000 + 150 = 1150."
+    ]
+  },
+  {
+    "id": "079",
+    "problem": "(36 ÷ 6 + 4) × 3 – 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekho (36 ÷ 6 + 4) × 3 – 8. Pehle kya karoge?",
+      "Student: Division — 36 ÷ 6 = 6.",
+      "AI Teacher: Achha! Ab 6 + 4 = 10.",
+      "Student: Phir 10 × 3 = 30.",
+      "AI Teacher: Aur aakhir mein 30 – 8 = 22.",
+      "Student: Jawab hai 22!",
+      "AI Teacher: Bohat sahi!",
+      "【ProblemID】:079",
+      "【Analysis】: 36 ÷ 6 = 6, (6 + 4) = 10, 10 × 3 – 8 = 22."
+    ]
+  },
+  {
+    "id": "080",
+    "problem": "Rida had Rs. 900. She bought 2 dresses costing Rs. 350 each and 1 scarf for Rs. 100. How much money is left?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Rida ke paas Rs. 900 the. Usne 2 dresses khareedi Rs. 350 ki aur ek scarf Rs. 100 ki. Pehle dresses ka total batao.",
+      "Student: 2 × 350 = 700.",
+      "AI Teacher: Ab scarf ka daam add karo.",
+      "Student: 700 + 100 = 800.",
+      "AI Teacher: Ab 900 - 800 karo.",
+      "Student: 100 bacha!",
+      "AI Teacher: Sahi jawab! Rida ke paas Rs. 100 bache.",
+      "【ProblemID】:080",
+      "【Analysis】: (2 × 350) + 100 = 800, 900 - 800 = 100."
+    ]
+  }
+    {
+    "id": "081",
+    "problem": "Ali spent Rs. 240 on 8 notebooks and 4 pencils costing Rs. 10 each. How much did each notebook cost?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhein, Ali ne Rs. 240 kharch kiye 8 notebooks aur 4 pencils pe, jinki har pencil Rs. 10 ki thi. Pehle kya nikalte hain?",
+      "Student: Pehle pencils ka total cost?",
+      "AI Teacher: Sahi! 4 × 10 = 40. Ab notebooks ke liye kitna paisa bacha?",
+      "Student: 240 - 40 = 200.",
+      "AI Teacher: Bohat achha. Ab 200 ko 8 se divide karo.",
+      "Student: 200 ÷ 8 = 25.",
+      "AI Teacher: Wah! Har notebook Rs. 25 ki thi.",
+      "【ProblemID】:081",
+      "【Analysis】: (4 × 10) = 40, 240 - 40 = 200, 200 ÷ 8 = 25."
+    ]
+  },
+  {
+    "id": "082",
+    "problem": "(35 + 25) × 2 – 18 ÷ 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (35 + 25) × 2 – 18 ÷ 3. Pehle kya karna chahiye?",
+      "Student: Bracket pehle — 35 + 25 = 60.",
+      "AI Teacher: Bilkul! Ab multiply aur divide karo.",
+      "Student: 60 × 2 = 120 aur 18 ÷ 3 = 6.",
+      "AI Teacher: Ab 120 - 6 = 114.",
+      "Student: Toh jawab 114 hai!",
+      "AI Teacher: Bohat khoob!",
+      "【ProblemID】:082",
+      "【Analysis】: (35 + 25) = 60, 60 × 2 = 120, 18 ÷ 3 = 6, 120 - 6 = 114."
+    ]
+  },
+  {
+    "id": "083",
+    "problem": "A factory produces 48 bottles in an hour. If 12 bottles are damaged every hour, how many good bottles are made in 5 hours?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Batao, 1 ghante mein 48 bottles banti hain, toh 5 ghante mein kitni banti hain?",
+      "Student: 48 × 5 = 240.",
+      "AI Teacher: Bohat accha. Ab 12 bottles har ghante toot jaati hain, total damaged kitni?",
+      "Student: 12 × 5 = 60.",
+      "AI Teacher: Ab batao, sahi wali bottles kitni bachi?",
+      "Student: 240 - 60 = 180.",
+      "AI Teacher: Bilkul sahi! 180 bottles theek hain.",
+      "【ProblemID】:083",
+      "【Analysis】: (48 × 5) = 240, (12 × 5) = 60, 240 - 60 = 180."
+    ]
+  },
+  {
+    "id": "084",
+    "problem": "(8 × 6) ÷ 4 + 12 – 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekho (8 × 6) ÷ 4 + 12 – 3. Pehle kya karoge?",
+      "Student: Bracket mein multiply — 8 × 6 = 48.",
+      "AI Teacher: Sahi! Ab 48 ÷ 4 = 12.",
+      "Student: Phir 12 + 12 – 3 = 21.",
+      "AI Teacher: Wah! Jawab 21 hai.",
+      "【ProblemID】:084",
+      "【Analysis】: (8 × 6) = 48, 48 ÷ 4 = 12, 12 + 12 - 3 = 21."
+    ]
+  },
+  {
+    "id": "085",
+    "problem": "A packet has 24 chocolates. If 3 friends share 5 packets equally, how many chocolates does each get?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek packet mein 24 chocolates hain. 5 packets mein kitni hui?",
+      "Student: 24 × 5 = 120.",
+      "AI Teacher: Ab 3 doston mein barabar divide karo.",
+      "Student: 120 ÷ 3 = 40.",
+      "AI Teacher: Bohat khoob! Har dost ko 40 chocolates milin.",
+      "【ProblemID】:085",
+      "【Analysis】: 24 × 5 = 120, 120 ÷ 3 = 40."
+    ]
+  },
+  {
+    "id": "086",
+    "problem": "[(16 ÷ 4) + (20 – 8)] × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhein [(16 ÷ 4) + (20 – 8)] × 2. Pehle kya karoge?",
+      "Student: Brackets ke andar divide aur subtract.",
+      "AI Teacher: Sahi! 16 ÷ 4 = 4 aur 20 – 8 = 12.",
+      "Student: Ab dono ko add karte hain, 4 + 12 = 16.",
+      "AI Teacher: Ab multiply karo, 16 × 2 = 32.",
+      "Student: Jawab hai 32!",
+      "AI Teacher: Bohat sahi!",
+      "【ProblemID】:086",
+      "【Analysis】: 16 ÷ 4 = 4, 20 – 8 = 12, (4 + 12) × 2 = 32."
+    ]
+  },
+  {
+    "id": "087",
+    "problem": "A shopkeeper sells 6 boxes of apples with 24 apples each. If 36 apples got spoiled, how many good apples were sold?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Batao, 6 boxes mein total apples kitni hui?",
+      "Student: 6 × 24 = 144.",
+      "AI Teacher: Ab 36 apples kharab ho gayi, toh sahi wali kitni bachi?",
+      "Student: 144 - 36 = 108.",
+      "AI Teacher: Bilkul theek! 108 ache apples beche gaye.",
+      "【ProblemID】:087",
+      "【Analysis】: 6 × 24 = 144, 144 - 36 = 108."
+    ]
+  },
+  {
+    "id": "088",
+    "problem": "(25 × 2) + (36 ÷ 6) – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekhein (25 × 2) + (36 ÷ 6) – 4. Kahan se shuru karein?",
+      "Student: Dono brackets solve karte hain pehle.",
+      "AI Teacher: Bilkul! 25 × 2 = 50 aur 36 ÷ 6 = 6.",
+      "Student: Ab 50 + 6 – 4 = 52.",
+      "AI Teacher: Wah! Jawab 52 hai.",
+      "【ProblemID】:088",
+      "【Analysis】: (25 × 2) = 50, (36 ÷ 6) = 6, 50 + 6 - 4 = 52."
+    ]
+  },
+  {
+    "id": "089",
+    "problem": "Sara bought 4 sets of markers with 10 markers each, and gave 8 markers to her friend. How many does she still have?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Sara ne 4 sets markers ke liye, har set mein 10 markers hain. Total markers kitni hui?",
+      "Student: 4 × 10 = 40.",
+      "AI Teacher: Usne 8 dost ko de di, ab kitni bachi?",
+      "Student: 40 - 8 = 32.",
+      "AI Teacher: Bilkul! Sara ke paas 32 markers bache.",
+      "【ProblemID】:089",
+      "【Analysis】: 4 × 10 = 40, 40 - 8 = 32."
+    ]
+  },
+  {
+    "id": "090",
+    "problem": "[(8 + 4) × 3] ÷ 2 – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(8 + 4) × 3] ÷ 2 – 5 solve karte hain. Pehle kya karna chahiye?",
+      "Student: Bracket pehle — 8 + 4 = 12.",
+      "AI Teacher: Sahi! Ab 12 × 3 = 36.",
+      "Student: Phir 36 ÷ 2 = 18.",
+      "AI Teacher: Ab 18 – 5 = 13.",
+      "Student: Jawab 13 hai!",
+      "AI Teacher: Bohat accha kaam!",
+      "【ProblemID】:090",
+      "【Analysis】: (8 + 4) = 12, 12 × 3 = 36, 36 ÷ 2 = 18, 18 – 5 = 13."
+    ]
+  }
+    {
+    "id": "091",
+    "problem": "(15 + 9) × 2 – 6 ÷ 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (15 + 9) × 2 – 6 ÷ 3. Sabse pehle kya karte hain?",
+      "Student: Bracket pehle — 15 + 9 = 24.",
+      "AI Teacher: Shabash! Ab multiply aur divide karte hain.",
+      "Student: 24 × 2 = 48 aur 6 ÷ 3 = 2.",
+      "AI Teacher: Ab subtract karte hain 48 – 2.",
+      "Student: 46!",
+      "AI Teacher: Bilkul sahi, final answer 46 hai.",
+      "【ProblemID】:091",
+      "【Analysis】: Pehle (15 + 9) = 24, phir 24 × 2 = 48, 6 ÷ 3 = 2, aur 48 – 2 = 46."
+    ]
+  },
+  {
+    "id": "092",
+    "problem": "A bakery sells 45 cupcakes a day. If each cupcake costs Rs. 30, how much money does the bakery earn in 6 days?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Bakery har din 45 cupcakes bechti hai aur har ek Rs. 30 ka hai. Ek din ka total kya hoga?",
+      "Student: 45 × 30 = 1350.",
+      "AI Teacher: Ab 6 din ka nikalte hain?",
+      "Student: 1350 × 6 = 8100.",
+      "AI Teacher: Wah! Bakery 6 din me Rs. 8100 kamati hai.",
+      "【ProblemID】:092",
+      "【Analysis】: 45 × 30 = 1350, 1350 × 6 = 8100."
+    ]
+  },
+  {
+    "id": "093",
+    "problem": "120 ÷ (8 + 4) × 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo try karo 120 ÷ (8 + 4) × 3. Pehle kya karna chahiye?",
+      "Student: Bracket pehle — 8 + 4 = 12.",
+      "AI Teacher: Sahi! Ab 120 ÷ 12 = 10.",
+      "Student: Phir 10 × 3 = 30.",
+      "AI Teacher: Bohat achha! Answer 30 hai.",
+      "【ProblemID】:093",
+      "【Analysis】: (8 + 4) = 12, 120 ÷ 12 = 10, 10 × 3 = 30."
+    ]
+  },
+  {
+    "id": "094",
+    "problem": "(25 × 3) + 40 ÷ 4 – 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karte hain (25 × 3) + 40 ÷ 4 – 10. Pehle kya karte hain?",
+      "Student: Bracket pehle — 25 × 3 = 75.",
+      "AI Teacher: Ab divide 40 ÷ 4 = 10.",
+      "Student: Phir add aur subtract — 75 + 10 – 10 = 75.",
+      "AI Teacher: Bilkul perfect! Final answer 75 hai.",
+      "【ProblemID】:094",
+      "【Analysis】: 25 × 3 = 75, 40 ÷ 4 = 10, 75 + 10 – 10 = 75."
+    ]
+  },
+  {
+    "id": "095",
+    "problem": "A shopkeeper packs 48 pencils into each box. If he has 432 pencils, how many full boxes can he make?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Shopkeeper ke paas 432 pencils hain aur ek box me 48 aati hain. Kitne boxes banenge?",
+      "Student: 432 ÷ 48.",
+      "AI Teacher: Shabash! Answer kya aata hai?",
+      "Student: 9.",
+      "AI Teacher: Bilkul sahi! 9 full boxes banenge.",
+      "【ProblemID】:095",
+      "【Analysis】: 432 ÷ 48 = 9."
+    ]
+  },
+  {
+    "id": "096",
+    "problem": "(50 – 20) × (12 ÷ 3)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (50 – 20) × (12 ÷ 3). Pehle kya karenge?",
+      "Student: Dono brackets — 50 – 20 = 30 aur 12 ÷ 3 = 4.",
+      "AI Teacher: Ab multiply 30 × 4.",
+      "Student: 120!",
+      "AI Teacher: Wah! Bilkul theek, answer 120 hai.",
+      "【ProblemID】:096",
+      "【Analysis】: (50 – 20) = 30, (12 ÷ 3) = 4, 30 × 4 = 120."
+    ]
+  },
+  {
+    "id": "097",
+    "problem": "[(18 + 6) ÷ 3] × 5 – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo [(18 + 6) ÷ 3] × 5 – 4. Kahan se start karenge?",
+      "Student: Bracket se — 18 + 6 = 24.",
+      "AI Teacher: Ab divide karo 24 ÷ 3 = 8.",
+      "Student: Phir 8 × 5 = 40.",
+      "AI Teacher: Ab minus karo 40 – 4 = 36.",
+      "Student: Answer 36!",
+      "AI Teacher: Wah beta! Bilkul sahi.",
+      "【ProblemID】:097",
+      "【Analysis】: (18 + 6) = 24, 24 ÷ 3 = 8, 8 × 5 = 40, 40 – 4 = 36."
+    ]
+  },
+  {
+    "id": "098",
+    "problem": "In a classroom, 6 rows have 8 desks each. If 12 desks are broken, how many good desks remain?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek classroom me 6 rows hain aur har row me 8 desks hain. Total kitni desks hui?",
+      "Student: 6 × 8 = 48.",
+      "AI Teacher: 12 desks tooti hui hain. Bachi hui kitni?",
+      "Student: 48 – 12 = 36.",
+      "AI Teacher: Bilkul theek! 36 desks sahi hain.",
+      "【ProblemID】:098",
+      "【Analysis】: 6 × 8 = 48, 48 – 12 = 36."
+    ]
+  },
+  {
+    "id": "099",
+    "problem": "A car travels 60 km in one hour. How far will it travel in (4 + 2) hours?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Car 1 ghante me 60 km chalti hai. Total kitne ghante?",
+      "Student: 4 + 2 = 6 ghante.",
+      "AI Teacher: Ab multiply karo 60 × 6.",
+      "Student: 360 km.",
+      "AI Teacher: Wah! Car 360 km chalegi.",
+      "【ProblemID】:099",
+      "【Analysis】: (4 + 2) = 6, 60 × 6 = 360."
+    ]
+  },
+  {
+    "id": "100",
+    "problem": "[(5 × 6) + 20 ÷ 4] – 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain [(5 × 6) + 20 ÷ 4] – 8. Pehle kya karenge?",
+      "Student: Multiplication aur division bracket ke andar.",
+      "AI Teacher: Sahi kaha! 5 × 6 = 30 aur 20 ÷ 4 = 5.",
+      "Student: Phir add karte hain 30 + 5 = 35.",
+      "AI Teacher: Ab minus karte hain 35 – 8 = 27.",
+      "Student: Matlab answer 27!",
+      "AI Teacher: Bohat khoob!",
+      "【ProblemID】:100",
+      "【Analysis】: (5 × 6) = 30, 20 ÷ 4 = 5, (30 + 5) – 8 = 27."
+    ]
+  }
+    {
+    "id": "101",
+    "problem": "(12 + 8) × 5 – 30 ÷ 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (12 + 8) × 5 – 30 ÷ 3. Pehle kya karna chahiye?",
+      "Student: Pehle brackets — 12 + 8 = 20.",
+      "AI Teacher: Bohat sahi! Ab humare paas hai 20 × 5 – 30 ÷ 3.",
+      "Student: Ab multiplication aur division? 20 × 5 = 100, 30 ÷ 3 = 10.",
+      "AI Teacher: Wah! Ab 100 – 10 karte hain.",
+      "Student: 90.",
+      "AI Teacher: Zabardast! Final answer 90 hai.",
+      "【ProblemID】:101",
+      "【Analysis】: (12 + 8) = 20, 20 × 5 = 100, 30 ÷ 3 = 10, 100 – 10 = 90."
+    ]
+  },
+  {
+    "id": "102",
+    "problem": "[(15 – 5) × 3] + 24 ÷ 6",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhte hain [(15 – 5) × 3] + 24 ÷ 6. Sabse pehle kya karenge?",
+      "Student: Brackets — 15 – 5 = 10.",
+      "AI Teacher: Bilkul! Ab 10 × 3 = 30.",
+      "Student: Ab 30 + 24 ÷ 6.",
+      "AI Teacher: Sahi, pehle division — 24 ÷ 6 = 4.",
+      "Student: Phir 30 + 4 = 34.",
+      "AI Teacher: Wah! Final answer 34.",
+      "【ProblemID】:102",
+      "【Analysis】: (15 – 5) = 10, 10 × 3 = 30, 24 ÷ 6 = 4, 30 + 4 = 34."
+    ]
+  },
+  {
+    "id": "103",
+    "problem": "A box has 12 pencils. How many pencils are there in (5 × 3) such boxes?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek box mein 12 pencils hain. Kitne boxes hain?",
+      "Student: (5 × 3) matlab 15 boxes.",
+      "AI Teacher: Bohat achha! Ab total pencils kitni hongi?",
+      "Student: 12 × 15 = 180 pencils.",
+      "AI Teacher: Sahi jawab! 180 pencils total.",
+      "【ProblemID】:103",
+      "【Analysis】: (5 × 3) = 15 boxes, 12 × 15 = 180 pencils."
+    ]
+  },
+  {
+    "id": "104",
+    "problem": "(100 – 25) ÷ 5 + 9 × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (100 – 25) ÷ 5 + 9 × 2 solve karte hain.",
+      "Student: Pehle bracket — 100 – 25 = 75.",
+      "AI Teacher: Bilkul! Ab 75 ÷ 5 = 15.",
+      "Student: Phir 9 × 2 = 18.",
+      "AI Teacher: Ab dono ko add karo — 15 + 18.",
+      "Student: 33!",
+      "AI Teacher: Wah! Sahi jawab 33.",
+      "【ProblemID】:104",
+      "【Analysis】: (100 – 25) = 75, 75 ÷ 5 = 15, 9 × 2 = 18, 15 + 18 = 33."
+    ]
+  },
+  {
+    "id": "105",
+    "problem": "If each pen costs Rs. 25, what is the total cost of (6 + 4) pens?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Har pen Rs. 25 ka hai. Kitne pens khareed rahe hain?",
+      "Student: (6 + 4) = 10 pens.",
+      "AI Teacher: Shabash! Ab total cost nikalo.",
+      "Student: 25 × 10 = 250.",
+      "AI Teacher: Bohat khoob! Total cost Rs. 250.",
+      "【ProblemID】:105",
+      "【Analysis】: (6 + 4) = 10 pens, 25 × 10 = 250."
+    ]
+  },
+  {
+    "id": "106",
+    "problem": "[(20 ÷ 4) + (8 × 2)] – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ab solve karte hain [(20 ÷ 4) + (8 × 2)] – 5.",
+      "Student: Pehle brackets — 20 ÷ 4 = 5, 8 × 2 = 16.",
+      "AI Teacher: Bohat accha! Ab 5 + 16 = 21.",
+      "Student: Ab 21 – 5 = 16.",
+      "AI Teacher: Wah bhai wah! Final answer 16.",
+      "【ProblemID】:106",
+      "【Analysis】: (20 ÷ 4) = 5, (8 × 2) = 16, 5 + 16 = 21, 21 – 5 = 16."
+    ]
+  },
+  {
+    "id": "107",
+    "problem": "72 ÷ (6 + 3 × 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo 72 ÷ (6 + 3 × 2). Bracket ke andar kya karenge pehle?",
+      "Student: Multiplication pehle — 3 × 2 = 6.",
+      "AI Teacher: Bilkul sahi! Ab 6 + 6 = 12.",
+      "Student: Ab 72 ÷ 12 = 6.",
+      "AI Teacher: Wah! Final answer 6.",
+      "【ProblemID】:107",
+      "【Analysis】: 3 × 2 = 6, 6 + 6 = 12, 72 ÷ 12 = 6."
+    ]
+  },
+  {
+    "id": "108",
+    "problem": "(45 ÷ 9) + (7 × 4) – 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (45 ÷ 9) + (7 × 4) – 10 karte hain.",
+      "Student: Pehle 45 ÷ 9 = 5, aur 7 × 4 = 28.",
+      "AI Teacher: Bohat acha! Ab add karo — 5 + 28 = 33.",
+      "Student: Phir 33 – 10 = 23.",
+      "AI Teacher: Wah! Sahi jawab 23.",
+      "【ProblemID】:108",
+      "【Analysis】: 45 ÷ 9 = 5, 7 × 4 = 28, 5 + 28 – 10 = 23."
+    ]
+  },
+  {
+    "id": "109",
+    "problem": "A shop sold 240 apples equally in 8 boxes. Then it sold 2 boxes. How many apples remain?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: 240 apples 8 boxes mein hain. Har box mein kitne apples hain?",
+      "Student: 240 ÷ 8 = 30 apples.",
+      "AI Teacher: Wah! Ab agar 2 boxes bik gaye, to kitne apples bik gaye?",
+      "Student: 30 × 2 = 60.",
+      "AI Teacher: Toh remaining apples kitne?",
+      "Student: 240 – 60 = 180 apples.",
+      "AI Teacher: Bohat khoob! Final answer 180.",
+      "【ProblemID】:109",
+      "【Analysis】: 240 ÷ 8 = 30, 30 × 2 = 60, 240 – 60 = 180."
+    ]
+  },
+  {
+    "id": "110",
+    "problem": "(9 × 5) + (24 ÷ 6) × 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (9 × 5) + (24 ÷ 6) × 3 solve karte hain.",
+      "Student: Pehle bracket mein 9 × 5 = 45.",
+      "AI Teacher: Doosre bracket mein 24 ÷ 6 = 4.",
+      "Student: Ab 4 × 3 = 12.",
+      "AI Teacher: Ab 45 + 12 = 57.",
+      "Student: Final answer 57!",
+      "AI Teacher: Wah! Bilkul sahi.",
+      "【ProblemID】:110",
+      "【Analysis】: 9 × 5 = 45, 24 ÷ 6 = 4, 4 × 3 = 12, 45 + 12 = 57."
+    ]
+  }
+    {
+    "id": "111",
+    "problem": "(15 + 5) × (12 ÷ 3) – 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (15 + 5) × (12 ÷ 3) – 10 solve karte hain. Pehle kya karna chahiye?",
+      "Student: Brackets pehle — 15 + 5 = 20, aur 12 ÷ 3 = 4.",
+      "AI Teacher: Bohat accha! Ab 20 × 4 karte hain.",
+      "Student: 80.",
+      "AI Teacher: Shabash! Ab 80 – 10.",
+      "Student: 70!",
+      "AI Teacher: Wah, sahi jawab 70!",
+      "【ProblemID】:111",
+      "【Analysis】: (15 + 5) = 20, (12 ÷ 3) = 4, 20 × 4 = 80, 80 – 10 = 70."
+    ]
+  },
+  {
+    "id": "112",
+    "problem": "A bag has 18 apples. How many apples in (6 ÷ 2) such bags?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek bag mein 18 apples hain. Kitne bags hain?",
+      "Student: (6 ÷ 2) matlab 3 bags.",
+      "AI Teacher: Bohat badhiya! Ab total apples kitne honge?",
+      "Student: 18 × 3 = 54 apples.",
+      "AI Teacher: Wah! Total 54 apples.",
+      "【ProblemID】:112",
+      "【Analysis】: (6 ÷ 2) = 3, 18 × 3 = 54 apples."
+    ]
+  },
+  {
+    "id": "113",
+    "problem": "(24 ÷ 8 + 5) × 6 – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ab (24 ÷ 8 + 5) × 6 – 4 karte hain. Sabse pehle kya karna hai?",
+      "Student: Bracket ke andar — 24 ÷ 8 = 3, phir 3 + 5 = 8.",
+      "AI Teacher: Shandar! Ab 8 × 6 karo.",
+      "Student: 48.",
+      "AI Teacher: Wah! Ab 48 – 4.",
+      "Student: 44!",
+      "AI Teacher: Bohat accha, final answer 44!",
+      "【ProblemID】:113",
+      "【Analysis】: 24 ÷ 8 = 3, 3 + 5 = 8, 8 × 6 = 48, 48 – 4 = 44."
+    ]
+  },
+  {
+    "id": "114",
+    "problem": "[(10 × 3) + (8 ÷ 2)] × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo [(10 × 3) + (8 ÷ 2)] × 2.",
+      "Student: Bracket ke andar — 10 × 3 = 30 aur 8 ÷ 2 = 4.",
+      "AI Teacher: Ab 30 + 4 = 34.",
+      "Student: Phir 34 × 2 = 68.",
+      "AI Teacher: Wah! Final answer 68.",
+      "【ProblemID】:114",
+      "【Analysis】: (10 × 3) = 30, (8 ÷ 2) = 4, 30 + 4 = 34, 34 × 2 = 68."
+    ]
+  },
+  {
+    "id": "115",
+    "problem": "If a school has 125 students in each grade and there are (5 – 2) grades, how many students total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: School mein har grade mein 125 students hain. Total kitne grades hain?",
+      "Student: (5 – 2) = 3 grades.",
+      "AI Teacher: Bohat accha! Ab 125 × 3 karo.",
+      "Student: 375.",
+      "AI Teacher: Wah bhai wah! Total 375 students.",
+      "【ProblemID】:115",
+      "【Analysis】: (5 – 2) = 3, 125 × 3 = 375 students."
+    ]
+  },
+  {
+    "id": "116",
+    "problem": "[(18 ÷ 3) + (7 × 2)] – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(18 ÷ 3) + (7 × 2)] – 5 solve karte hain.",
+      "Student: Brackets mein — 18 ÷ 3 = 6 aur 7 × 2 = 14.",
+      "AI Teacher: Bohat accha! Ab 6 + 14 = 20.",
+      "Student: Phir 20 – 5 = 15.",
+      "AI Teacher: Perfect! Answer 15.",
+      "【ProblemID】:116",
+      "【Analysis】: 18 ÷ 3 = 6, 7 × 2 = 14, 6 + 14 = 20, 20 – 5 = 15."
+    ]
+  },
+  {
+    "id": "117",
+    "problem": "(8 × 5) – (24 ÷ 4) + 6",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (8 × 5) – (24 ÷ 4) + 6 solve karte hain.",
+      "Student: Bracket pehle — 8 × 5 = 40, 24 ÷ 4 = 6.",
+      "AI Teacher: Ab 40 – 6 + 6.",
+      "Student: 40 – 6 = 34, 34 + 6 = 40.",
+      "AI Teacher: Wah! Final answer 40.",
+      "【ProblemID】:117",
+      "【Analysis】: (8 × 5) = 40, (24 ÷ 4) = 6, 40 – 6 + 6 = 40."
+    ]
+  },
+  {
+    "id": "118",
+    "problem": "A tank holds 50 liters of water. If 10 liters are used daily, how much remains after (3 + 2) days?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Tank mein 50 liters paani hai. Har din 10 liters use hota hai. Kitne dinon ka use hai?",
+      "Student: (3 + 2) = 5 din.",
+      "AI Teacher: Bohat accha! 10 × 5 = 50 liters use ho gaye.",
+      "Student: Matlab paani khatam!",
+      "AI Teacher: Bilkul! 0 liters bacha.",
+      "【ProblemID】:118",
+      "【Analysis】: (3 + 2) = 5, 10 × 5 = 50, 50 – 50 = 0."
+    ]
+  },
+  {
+    "id": "119",
+    "problem": "(16 ÷ 4) × (5 + 3) – 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (16 ÷ 4) × (5 + 3) – 10.",
+      "Student: Bracket mein pehle 5 + 3 = 8.",
+      "AI Teacher: Ab 16 ÷ 4 = 4.",
+      "Student: 4 × 8 = 32.",
+      "AI Teacher: Ab 32 – 10 = 22.",
+      "Student: Toh answer 22!",
+      "AI Teacher: Wah! Sahi jawab.",
+      "【ProblemID】:119",
+      "【Analysis】: 16 ÷ 4 = 4, (5 + 3) = 8, 4 × 8 = 32, 32 – 10 = 22."
+    ]
+  },
+  {
+    "id": "120",
+    "problem": "[(9 + 6) × 3] – (20 ÷ 5)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(9 + 6) × 3] – (20 ÷ 5) solve karte hain. Pehle kya karoge?",
+      "Student: Bracket — 9 + 6 = 15.",
+      "AI Teacher: Ab multiply karo 15 × 3 = 45.",
+      "Student: Doosri bracket mein 20 ÷ 5 = 4.",
+      "AI Teacher: Ab 45 – 4 = 41.",
+      "Student: Final answer 41!",
+      "AI Teacher: Bohat accha kaam!",
+      "【ProblemID】:120",
+      "【Analysis】: (9 + 6) = 15, 15 × 3 = 45, (20 ÷ 5) = 4, 45 – 4 = 41."
+    ]
+  }
+    {
+    "id": "121",
+    "problem": "(14 + 6) × 2 – 10 ÷ 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo shuru karte hain (14 + 6) × 2 – 10 ÷ 2 se. Sabse pehle kya karna chahiye?",
+      "Student: Bracket wale numbers? 14 + 6 = 20.",
+      "AI Teacher: Bilkul sahi! Ab 20 × 2 = 40.",
+      "Student: Phir 10 ÷ 2 = 5.",
+      "AI Teacher: Wah, ab 40 – 5 = 35.",
+      "Student: Matlab answer 35 hai!",
+      "AI Teacher: Perfect! Tumne sahi solve kiya.",
+      "【ProblemID】:121",
+      "【Analysis】: (14 + 6) = 20, 20 × 2 = 40, 10 ÷ 2 = 5, 40 – 5 = 35."
+    ]
+  },
+  {
+    "id": "122",
+    "problem": "[(20 ÷ 4) + 6] × (8 – 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhein [(20 ÷ 4) + 6] × (8 – 2). Pehle kya solve karenge?",
+      "Student: Brackets! 20 ÷ 4 = 5 aur 8 – 2 = 6.",
+      "AI Teacher: Bohat achha! Ab pehle bracket mein 5 + 6 = 11.",
+      "Student: Phir 11 × 6 = 66.",
+      "AI Teacher: Zabardast! Final answer 66.",
+      "【ProblemID】:122",
+      "【Analysis】: (20 ÷ 4) = 5, (8 – 2) = 6, 5 + 6 = 11, 11 × 6 = 66."
+    ]
+  },
+  {
+    "id": "123",
+    "problem": "A truck carries 25 boxes. Each box weighs (6 + 4) kg. Find the total weight.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek truck mein 25 boxes hain, aur har box ka weight (6 + 4) kg hai. Pehle kya karenge?",
+      "Student: (6 + 4) = 10 kg per box.",
+      "AI Teacher: Shabash! Ab 25 × 10 = ?",
+      "Student: 250 kg!",
+      "AI Teacher: Wah, bilkul theek! Total weight 250 kg hai.",
+      "【ProblemID】:123",
+      "【Analysis】: (6 + 4) = 10, 25 × 10 = 250."
+    ]
+  },
+  {
+    "id": "124",
+    "problem": "(18 – 3) × 4 + 8 ÷ 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (18 – 3) × 4 + 8 ÷ 2.",
+      "Student: Pehle bracket — 18 – 3 = 15.",
+      "AI Teacher: Ab 15 × 4 = 60.",
+      "Student: Phir 8 ÷ 2 = 4.",
+      "AI Teacher: Ab dono add karo — 60 + 4 = 64.",
+      "Student: Answer 64!",
+      "AI Teacher: Bilkul sahi!",
+      "【ProblemID】:124",
+      "【Analysis】: (18 – 3) = 15, 15 × 4 = 60, 8 ÷ 2 = 4, 60 + 4 = 64."
+    ]
+  },
+  {
+    "id": "125",
+    "problem": "[(30 ÷ 5) + (2 × 6)] – 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ab solve karo [(30 ÷ 5) + (2 × 6)] – 8. Pehle kya karna hai?",
+      "Student: Brackets ke andar — 30 ÷ 5 = 6 aur 2 × 6 = 12.",
+      "AI Teacher: Bahut khoob! Ab 6 + 12 = 18.",
+      "Student: Phir 18 – 8 = 10.",
+      "AI Teacher: Sahi jawab! Answer 10.",
+      "【ProblemID】:125",
+      "【Analysis】: (30 ÷ 5) = 6, (2 × 6) = 12, 6 + 12 = 18, 18 – 8 = 10."
+    ]
+  },
+  {
+    "id": "126",
+    "problem": "A shopkeeper sells (12 + 8) pens daily for 5 days. How many pens in total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek dukandaar roz (12 + 8) pens bechta hai. Ek din mein kitne hue?",
+      "Student: (12 + 8) = 20 pens.",
+      "AI Teacher: Bohat accha! Ab 5 din ke liye 20 × 5 = ?",
+      "Student: 100 pens!",
+      "AI Teacher: Perfect! Total 100 pens beche gaye.",
+      "【ProblemID】:126",
+      "【Analysis】: (12 + 8) = 20, 20 × 5 = 100 pens."
+    ]
+  },
+  {
+    "id": "127",
+    "problem": "(48 ÷ 8) + (9 × 3) – 7",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (48 ÷ 8) + (9 × 3) – 7.",
+      "Student: 48 ÷ 8 = 6, aur 9 × 3 = 27.",
+      "AI Teacher: Ab dono add karo — 6 + 27 = 33.",
+      "Student: Phir 33 – 7 = 26.",
+      "AI Teacher: Bohat sahi! Answer 26 hai.",
+      "【ProblemID】:127",
+      "【Analysis】: 48 ÷ 8 = 6, 9 × 3 = 27, 6 + 27 – 7 = 26."
+    ]
+  },
+  {
+    "id": "128",
+    "problem": "[(10 + 5) × 4] ÷ (9 – 6)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karein [(10 + 5) × 4] ÷ (9 – 6). Sabse pehle kya karna chahiye?",
+      "Student: Brackets! 10 + 5 = 15 aur 9 – 6 = 3.",
+      "AI Teacher: Bohat achha! Ab 15 × 4 = 60.",
+      "Student: Phir 60 ÷ 3 = 20.",
+      "AI Teacher: Wah, bilkul sahi! Final answer 20.",
+      "【ProblemID】:128",
+      "【Analysis】: (10 + 5) = 15, (9 – 6) = 3, 15 × 4 = 60, 60 ÷ 3 = 20."
+    ]
+  },
+  {
+    "id": "129",
+    "problem": "(25 ÷ 5) × (10 – 4) + 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ab dekhte hain (25 ÷ 5) × (10 – 4) + 3.",
+      "Student: Pehle brackets — 10 – 4 = 6.",
+      "AI Teacher: Ab 25 ÷ 5 = 5.",
+      "Student: Phir 5 × 6 = 30.",
+      "AI Teacher: Aur last mein 30 + 3 = 33.",
+      "Student: Matlab answer 33 hai!",
+      "AI Teacher: Bilkul theek!",
+      "【ProblemID】:129",
+      "【Analysis】: 25 ÷ 5 = 5, (10 – 4) = 6, 5 × 6 = 30, 30 + 3 = 33."
+    ]
+  },
+  {
+    "id": "130",
+    "problem": "A factory produces (12 × 4) bottles daily for (3 + 2) days. Find total bottles made.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Factory roz (12 × 4) bottles banati hai. Ek din mein kitni hui?",
+      "Student: 12 × 4 = 48 bottles.",
+      "AI Teacher: Bahut accha! Ab (3 + 2) dinon ke liye?",
+      "Student: (3 + 2) = 5 days.",
+      "AI Teacher: Toh total 48 × 5 = 240 bottles.",
+      "Student: Matlab final answer 240 bottles!",
+      "AI Teacher: Bohat khoob! Tumne sahi kiya.",
+      "【ProblemID】:130",
+      "【Analysis】: (12 × 4) = 48, (3 + 2) = 5, 48 × 5 = 240 bottles."
+    ]
+  }
+    {
+    "id": "131",
+    "problem": "[(8 + 12) ÷ 4] × (6 – 3)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo isay solve karte hain — [(8 + 12) ÷ 4] × (6 – 3). Pehle kya karna chahiye?",
+      "Student: Brackets pehle — 8 + 12 = 20, aur 6 – 3 = 3.",
+      "AI Teacher: Wah! Ab 20 ÷ 4 = 5, aur 5 × 3 = 15.",
+      "Student: Matlab final answer 15 hai!",
+      "AI Teacher: Bilkul sahi! Tumne BODMAS rule sahi follow kiya.",
+      "【ProblemID】:131",
+      "【Analysis】: (8 + 12) = 20, (6 – 3) = 3, 20 ÷ 4 = 5, 5 × 3 = 15."
+    ]
+  },
+  {
+    "id": "132",
+    "problem": "A shop sells 16 boxes with (10 + 6) pencils each. Find the total pencils.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek shop mein 16 boxes hain aur har box mein (10 + 6) pencils hain. Pehle kya karna chahiye?",
+      "Student: Bracket! 10 + 6 = 16 pencils per box.",
+      "AI Teacher: Sahi! Ab 16 boxes × 16 pencils = ?",
+      "Student: 256 pencils.",
+      "AI Teacher: Shabash! Total pencils 256 hain.",
+      "【ProblemID】:132",
+      "【Analysis】: (10 + 6) = 16, 16 × 16 = 256 pencils."
+    ]
+  },
+  {
+    "id": "133",
+    "problem": "(50 – 10) ÷ 4 + 8 × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekho (50 – 10) ÷ 4 + 8 × 2. Pehle kya karte hain?",
+      "Student: Bracket pehle — 50 – 10 = 40.",
+      "AI Teacher: Bilkul. Ab divide karo 40 ÷ 4 = 10.",
+      "Student: Phir 8 × 2 = 16, aur 10 + 16 = 26.",
+      "AI Teacher: Wah! Final answer 26 hai.",
+      "【ProblemID】:133",
+      "【Analysis】: (50 – 10) = 40, 40 ÷ 4 = 10, 8 × 2 = 16, total = 26."
+    ]
+  },
+  {
+    "id": "134",
+    "problem": "(9 + 3) × (12 ÷ 4) – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (9 + 3) × (12 ÷ 4) – 5 mein pehla step kya hai?",
+      "Student: Dono brackets! 9 + 3 = 12 aur 12 ÷ 4 = 3.",
+      "AI Teacher: Bohat khoob! Ab multiply karo 12 × 3 = 36, phir 5 minus karo.",
+      "Student: 36 – 5 = 31.",
+      "AI Teacher: Perfect! Answer 31 hai.",
+      "【ProblemID】:134",
+      "【Analysis】: (9 + 3) = 12, (12 ÷ 4) = 3, 12 × 3 = 36, 36 – 5 = 31."
+    ]
+  },
+  {
+    "id": "135",
+    "problem": "A box contains (9 × 3) chocolates. How many chocolates in 4 such boxes?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek box mein (9 × 3) chocolates hain. Pehle kya karte hain?",
+      "Student: Multiply — 9 × 3 = 27 chocolates.",
+      "AI Teacher: Ab 27 × 4 karo.",
+      "Student: 108 chocolates!",
+      "AI Teacher: Wah! 4 boxes mein 108 chocolates.",
+      "【ProblemID】:135",
+      "【Analysis】: (9 × 3) = 27, 27 × 4 = 108 chocolates."
+    ]
+  },
+  {
+    "id": "136",
+    "problem": "[(30 ÷ 3) + (4 × 2)] – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(30 ÷ 3) + (4 × 2)] – 5 solve karte hain. Pehle kya karna chahiye?",
+      "Student: Brackets pehle! 30 ÷ 3 = 10 aur 4 × 2 = 8.",
+      "AI Teacher: Achha! Ab 10 + 8 = 18.",
+      "Student: Phir 18 – 5 = 13.",
+      "AI Teacher: Bilkul! Answer 13 hai.",
+      "【ProblemID】:136",
+      "【Analysis】: (30 ÷ 3) = 10, (4 × 2) = 8, 10 + 8 = 18, 18 – 5 = 13."
+    ]
+  },
+  {
+    "id": "137",
+    "problem": "An orchard has (15 + 5) trees in each of 7 rows. Find total trees.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Har row mein (15 + 5) trees hain aur 7 rows hain. Pehla step kya hai?",
+      "Student: Bracket! 15 + 5 = 20 trees per row.",
+      "AI Teacher: Ab multiply karo 20 × 7 = 140 trees.",
+      "Student: Toh total 140 trees hain!",
+      "AI Teacher: Bohat acha!",
+      "【ProblemID】:137",
+      "【Analysis】: (15 + 5) = 20, 20 × 7 = 140 trees."
+    ]
+  },
+  {
+    "id": "138",
+    "problem": "(45 ÷ 5) × (8 – 3) + 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (45 ÷ 5) × (8 – 3) + 10 solve karte hain.",
+      "Student: Pehle bracket — 8 – 3 = 5.",
+      "AI Teacher: Sahi! Ab 45 ÷ 5 = 9 aur 9 × 5 = 45.",
+      "Student: Phir 45 + 10 = 55.",
+      "AI Teacher: Shabash! Final answer 55 hai.",
+      "【ProblemID】:138",
+      "【Analysis】: (45 ÷ 5) = 9, (8 – 3) = 5, 9 × 5 = 45, 45 + 10 = 55."
+    ]
+  },
+  {
+    "id": "139",
+    "problem": "[(24 – 4) ÷ 2] + (9 × 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(24 – 4) ÷ 2] + (9 × 2) solve karte hain.",
+      "Student: Bracket pehle — 24 – 4 = 20.",
+      "AI Teacher: Ab 20 ÷ 2 = 10 aur 9 × 2 = 18.",
+      "Student: 10 + 18 = 28.",
+      "AI Teacher: Sahi jawab! 28 final answer hai.",
+      "【ProblemID】:139",
+      "【Analysis】: (24 – 4) = 20, 20 ÷ 2 = 10, (9 × 2) = 18, total = 28."
+    ]
+  },
+  {
+    "id": "140",
+    "problem": "A class has (8 + 7) students in each of 5 groups. Find total students.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek class mein (8 + 7) students har group mein hain, aur total 5 groups hain. Pehle kya karna chahiye?",
+      "Student: Bracket pehle — 8 + 7 = 15 students per group.",
+      "AI Teacher: Sahi! Ab 15 × 5 = 75 students.",
+      "Student: Matlab total 75 students hain!",
+      "AI Teacher: Wah! Tumne sahi solve kiya.",
+      "【ProblemID】:140",
+      "【Analysis】: (8 + 7) = 15, 15 × 5 = 75 students."
+    ]
+  }
+    {
+    "id": "141",
+    "problem": "(25 + 15) ÷ 5 × 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo isay solve karte hain — (25 + 15) ÷ 5 × 4. Pehle kya karna chahiye?",
+      "Student: Bracket pehle — 25 + 15 = 40.",
+      "AI Teacher: Bohat khoob! Ab 40 ÷ 5 karo.",
+      "Student: 8.",
+      "AI Teacher: Sahi! Ab 8 × 4 = 32. Toh final answer 32 hai.",
+      "【ProblemID】:141",
+      "【Analysis】: (25 + 15) = 40, 40 ÷ 5 = 8, 8 × 4 = 32."
+    ]
+  },
+  {
+    "id": "142",
+    "problem": "A carton holds (12 × 3) bottles. How many bottles in 8 cartons?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek carton mein (12 × 3) bottles hain. Pehla step kya hai?",
+      "Student: Bracket pehle — 12 × 3 = 36 bottles.",
+      "AI Teacher: Sahi! Ab 36 × 8 karo.",
+      "Student: 288 bottles!",
+      "AI Teacher: Wah! Toh total 288 bottles hain.",
+      "【ProblemID】:142",
+      "【Analysis】: (12 × 3) = 36, 36 × 8 = 288 bottles."
+    ]
+  },
+  {
+    "id": "143",
+    "problem": "[(6 × 4) + 12] ÷ 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(6 × 4) + 12] ÷ 3 solve karte hain. Pehle kya karoge?",
+      "Student: Pehle multiply — 6 × 4 = 24.",
+      "AI Teacher: Bohat achha! Ab 24 + 12 = 36.",
+      "Student: Phir 36 ÷ 3 = 12.",
+      "AI Teacher: Wah! Tumne sahi solve kiya. Answer 12 hai.",
+      "【ProblemID】:143",
+      "【Analysis】: (6 × 4) = 24, 24 + 12 = 36, 36 ÷ 3 = 12."
+    ]
+  },
+  {
+    "id": "144",
+    "problem": "(9 × 5) + (15 ÷ 3) × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (9 × 5) + (15 ÷ 3) × 2 dekhte hain. Kya karna chahiye pehle?",
+      "Student: Bracket pehle — 9 × 5 = 45 aur 15 ÷ 3 = 5.",
+      "AI Teacher: Shabash! Ab 5 × 2 = 10, phir 45 + 10.",
+      "Student: 55!",
+      "AI Teacher: Bilkul sahi! Answer 55 hai.",
+      "【ProblemID】:144",
+      "【Analysis】: (9 × 5) = 45, (15 ÷ 3) = 5, 5 × 2 = 10, total = 55."
+    ]
+  },
+  {
+    "id": "145",
+    "problem": "(48 ÷ 8) × (7 + 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (48 ÷ 8) × (7 + 2) solve karo. Pehla step kya hai?",
+      "Student: Bracket pehle — 48 ÷ 8 = 6 aur 7 + 2 = 9.",
+      "AI Teacher: Bohat badhiya! Ab 6 × 9 = 54.",
+      "Student: Matlab final answer 54!",
+      "AI Teacher: Perfect! Tumne rule sahi follow kiya.",
+      "【ProblemID】:145",
+      "【Analysis】: (48 ÷ 8) = 6, (7 + 2) = 9, 6 × 9 = 54."
+    ]
+  },
+  {
+    "id": "146",
+    "problem": "[(30 – 10) × 2] + 25 ÷ 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(30 – 10) × 2] + 25 ÷ 5 solve karte hain. Kya karoge pehle?",
+      "Student: Bracket pehle — 30 – 10 = 20, phir 20 × 2 = 40.",
+      "AI Teacher: Wah! Ab 25 ÷ 5 = 5.",
+      "Student: Ab 40 + 5 = 45.",
+      "AI Teacher: Bohat acha! Final answer 45 hai.",
+      "【ProblemID】:146",
+      "【Analysis】: (30 – 10) = 20, 20 × 2 = 40, 25 ÷ 5 = 5, total = 45."
+    ]
+  },
+  {
+    "id": "147",
+    "problem": "(12 + 18) ÷ (6 – 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (12 + 18) ÷ (6 – 2) mein pehle kya karna chahiye?",
+      "Student: Dono brackets pehle — 12 + 18 = 30 aur 6 – 2 = 4.",
+      "AI Teacher: Ab divide karo 30 ÷ 4.",
+      "Student: 7.5.",
+      "AI Teacher: Bilkul sahi! Final answer 7.5 hai.",
+      "【ProblemID】:147",
+      "【Analysis】: (12 + 18) = 30, (6 – 2) = 4, 30 ÷ 4 = 7.5."
+    ]
+  },
+  {
+    "id": "148",
+    "problem": "A student solved (10 × 3) + (24 ÷ 6). Find the result.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (10 × 3) + (24 ÷ 6) solve karte hain.",
+      "Student: Pehle 10 × 3 = 30 aur 24 ÷ 6 = 4.",
+      "AI Teacher: Ab dono ko add karo, 30 + 4.",
+      "Student: 34!",
+      "AI Teacher: Sahi jawab! Answer 34 hai.",
+      "【ProblemID】:148",
+      "【Analysis】: (10 × 3) = 30, (24 ÷ 6) = 4, total = 34."
+    ]
+  },
+  {
+    "id": "149",
+    "problem": "[(15 + 5) × 2] – (8 ÷ 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: [(15 + 5) × 2] – (8 ÷ 2) mein kya karoge pehle?",
+      "Student: Bracket pehle — 15 + 5 = 20, aur 8 ÷ 2 = 4.",
+      "AI Teacher: Bohat khoob! Ab 20 × 2 = 40, phir 40 – 4.",
+      "Student: 36!",
+      "AI Teacher: Shabash! Answer 36 hai.",
+      "【ProblemID】:149",
+      "【Analysis】: (15 + 5) = 20, (8 ÷ 2) = 4, 20 × 2 = 40, 40 – 4 = 36."
+    ]
+  },
+  {
+    "id": "150",
+    "problem": "(18 ÷ 3 + 7) × (9 – 6)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (18 ÷ 3 + 7) × (9 – 6) solve karte hain. Pehla step kya hai?",
+      "Student: Bracket pehle — 18 ÷ 3 = 6 aur 9 – 6 = 3.",
+      "AI Teacher: Ab 6 + 7 = 13, phir 13 × 3 = 39.",
+      "Student: Toh final answer 39 hai!",
+      "AI Teacher: Bilkul perfect!",
+      "【ProblemID】:150",
+      "【Analysis】: (18 ÷ 3) = 6, (9 – 6) = 3, 6 + 7 = 13, 13 × 3 = 39."
+    ]
+  }
+    {
+    "id": "151",
+    "problem": "(20 + 10) ÷ 5 × 6",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo isay solve karte hain — (20 + 10) ÷ 5 × 6. Batao pehle kya karna chahiye?",
+      "Student: Pehle bracket?",
+      "AI Teacher: Bilkul! (20 + 10) = 30. Ab 30 ÷ 5 karo.",
+      "Student: 6 aata hai.",
+      "AI Teacher: Bohat khoob! Ab 6 × 6 = 36. Yehi final answer hai!",
+      "【ProblemID】:151",
+      "【Analysis】: Pehle (20 + 10) = 30, phir 30 ÷ 5 = 6, aur 6 × 6 = 36."
+    ]
+  },
+  {
+    "id": "152",
+    "problem": "[(18 ÷ 3) + (4 × 2)] × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ab dekho — [(18 ÷ 3) + (4 × 2)] × 2. Pehla step kya hoga?",
+      "Student: Brackets! 18 ÷ 3 = 6 aur 4 × 2 = 8.",
+      "AI Teacher: Shabash! Ab dono ko add karo: 6 + 8 = 14.",
+      "Student: Ab 14 × 2 = 28.",
+      "AI Teacher: Bilkul sahi! Final answer 28 hai.",
+      "【ProblemID】:152",
+      "【Analysis】: (18 ÷ 3) = 6, (4 × 2) = 8, total = 14, 14 × 2 = 28."
+    ]
+  },
+  {
+    "id": "153",
+    "problem": "A man bought 6 boxes, each with (5 + 7) packets of biscuits. How many packets total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Har box mein (5 + 7) packets hain, aur total 6 boxes hain. Pehle kya karenge?",
+      "Student: Bracket pehle — 5 + 7 = 12.",
+      "AI Teacher: Sahi! Ab 12 × 6 karo.",
+      "Student: 72 packets.",
+      "AI Teacher: Bohat acha! Toh total 72 packets hue.",
+      "【ProblemID】:153",
+      "【Analysis】: (5 + 7) = 12, 12 × 6 = 72 packets."
+    ]
+  },
+  {
+    "id": "154",
+    "problem": "(60 ÷ 5) + (3 × 4) – 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (60 ÷ 5) + (3 × 4) – 2. Kahan se shuru karte hain?",
+      "Student: Brackets — 60 ÷ 5 = 12 aur 3 × 4 = 12.",
+      "AI Teacher: Ab dono add karo: 12 + 12 = 24, phir 2 minus karo.",
+      "Student: 22.",
+      "AI Teacher: Wah! Final answer 22 hai.",
+      "【ProblemID】:154",
+      "【Analysis】: (60 ÷ 5) = 12, (3 × 4) = 12, total 24 – 2 = 22."
+    ]
+  },
+  {
+    "id": "155",
+    "problem": "[(45 – 15) ÷ 5] × 4 + 10",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo try karte hain [(45 – 15) ÷ 5] × 4 + 10. Pehle kya hoga?",
+      "Student: Bracket! 45 – 15 = 30.",
+      "AI Teacher: Ab 30 ÷ 5 = 6.",
+      "Student: Phir 6 × 4 = 24, aur 10 add karo.",
+      "AI Teacher: Perfect! Final answer 34.",
+      "【ProblemID】:155",
+      "【Analysis】: (45 – 15) = 30, 30 ÷ 5 = 6, 6 × 4 = 24, 24 + 10 = 34."
+    ]
+  },
+  {
+    "id": "156",
+    "problem": "(16 + 8) ÷ (4 × 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Kaise solve karoge (16 + 8) ÷ (4 × 2)?",
+      "Student: Brackets pehle — 16 + 8 = 24 aur 4 × 2 = 8.",
+      "AI Teacher: Ab 24 ÷ 8 karo.",
+      "Student: 3.",
+      "AI Teacher: Bohat badhiya! Final answer 3 hai.",
+      "【ProblemID】:156",
+      "【Analysis】: (16 + 8) = 24, (4 × 2) = 8, 24 ÷ 8 = 3."
+    ]
+  },
+  {
+    "id": "157",
+    "problem": "(10 × 3) + (15 – 5) × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (10 × 3) + (15 – 5) × 2. Kya karna pehle?",
+      "Student: Brackets! 10 × 3 = 30 aur 15 – 5 = 10.",
+      "AI Teacher: Ab 10 × 2 = 20.",
+      "Student: Phir 30 + 20 = 50.",
+      "AI Teacher: Excellent! Answer 50 hai.",
+      "【ProblemID】:157",
+      "【Analysis】: (10 × 3) = 30, (15 – 5) = 10, 10 × 2 = 20, total = 50."
+    ]
+  },
+  {
+    "id": "158",
+    "problem": "[(6 × 8) ÷ 4] + (12 – 6)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo [(6 × 8) ÷ 4] + (12 – 6) solve karte hain. Pehle kya?",
+      "Student: Bracket mein — 6 × 8 = 48, 48 ÷ 4 = 12.",
+      "AI Teacher: Ab 12 – 6 = 6.",
+      "Student: Phir 12 + 6 = 18.",
+      "AI Teacher: Bohat acha! Final answer 18.",
+      "【ProblemID】:158",
+      "【Analysis】: (6 × 8) ÷ 4 = 12, (12 – 6) = 6, total = 18."
+    ]
+  },
+  {
+    "id": "159",
+    "problem": "A container holds (50 ÷ 5) litres. How much will 7 such containers hold?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Har container mein (50 ÷ 5) litres hain. Batao 7 containers mein kitne litres honge?",
+      "Student: 50 ÷ 5 = 10 litres.",
+      "AI Teacher: Ab 10 × 7 = 70.",
+      "Student: Matlab total 70 litres!",
+      "AI Teacher: Bilkul sahi! Final answer 70 litres.",
+      "【ProblemID】:159",
+      "【Analysis】: (50 ÷ 5) = 10, 10 × 7 = 70 litres."
+    ]
+  },
+  {
+    "id": "160",
+    "problem": "(8 + 12 ÷ 3) × (5 – 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (8 + 12 ÷ 3) × (5 – 2) solve karte hain. Kya pehle karna chahiye?",
+      "Student: Brackets! 12 ÷ 3 = 4 aur 5 – 2 = 3.",
+      "AI Teacher: Ab 8 + 4 = 12, phir 12 × 3 = 36.",
+      "Student: Wah! 36!",
+      "AI Teacher: Perfect! Final answer 36.",
+      "【ProblemID】:160",
+      "【Analysis】: (8 + 12 ÷ 3) = 12, (5 – 2) = 3, 12 × 3 = 36."
+    ]
+  }
+    {
+    "id": "161",
+    "problem": "(25 + 15) × 2 – 10 ÷ 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (25 + 15) × 2 – 10 ÷ 5. Pehle kya karna chahiye?",
+      "Student: Bracket pehle — 25 + 15 = 40.",
+      "AI Teacher: Bilkul sahi! Ab 40 × 2 = 80.",
+      "Student: Phir 10 ÷ 5 = 2, toh 80 – 2 = 78.",
+      "AI Teacher: Wah, bohot acha! Final answer hai 78.",
+      "【ProblemID】:161",
+      "【Analysis】: (25 + 15) = 40, 40 × 2 = 80, 10 ÷ 5 = 2, 80 – 2 = 78."
+    ]
+  },
+  {
+    "id": "162",
+    "problem": "[(12 + 8) ÷ 4] × (6 – 3)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekho ye sawal — [(12 + 8) ÷ 4] × (6 – 3). Kahan se start karein?",
+      "Student: Pehle pehle bracket — 12 + 8 = 20.",
+      "AI Teacher: Sahi! Ab 20 ÷ 4 = 5. Doosre bracket mein 6 – 3 = 3.",
+      "Student: Ab 5 × 3 = 15.",
+      "AI Teacher: Zabardast! Final answer 15.",
+      "【ProblemID】:162",
+      "【Analysis】: (12 + 8) ÷ 4 = 5, (6 – 3) = 3, total = 15."
+    ]
+  },
+  {
+    "id": "163",
+    "problem": "A factory produces (45 ÷ 5) boxes of toys per day. How many toys in 7 days?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Factory har din (45 ÷ 5) boxes banati hai. 7 din mein kitne boxes banenge?",
+      "Student: 45 ÷ 5 = 9 boxes per day.",
+      "AI Teacher: Bilkul! Ab 9 × 7 = 63 boxes ek week mein.",
+      "Student: Toh 63 total!",
+      "AI Teacher: Shabash! Final answer 63 boxes.",
+      "【ProblemID】:163",
+      "【Analysis】: (45 ÷ 5) = 9, 9 × 7 = 63 boxes."
+    ]
+  },
+  {
+    "id": "164",
+    "problem": "(50 – 10) ÷ (8 – 6) + 12",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (50 – 10) ÷ (8 – 6) + 12. Pehle kya karoge?",
+      "Student: Bracket — 50 – 10 = 40 aur 8 – 6 = 2.",
+      "AI Teacher: Bohot acha! Ab 40 ÷ 2 = 20.",
+      "Student: Phir 20 + 12 = 32.",
+      "AI Teacher: Wah! Final answer 32.",
+      "【ProblemID】:164",
+      "【Analysis】: (50 – 10) = 40, (8 – 6) = 2, 40 ÷ 2 = 20, 20 + 12 = 32."
+    ]
+  },
+  {
+    "id": "165",
+    "problem": "[(18 ÷ 3) + 5 × 2] – (6 ÷ 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhein [(18 ÷ 3) + 5 × 2] – (6 ÷ 2). Kahan se shuru karte hain?",
+      "Student: Pehle bracket ke andar — 18 ÷ 3 = 6.",
+      "AI Teacher: Sahi! Ab 5 × 2 = 10. Add karte hain 6 + 10 = 16.",
+      "Student: Ab (6 ÷ 2) = 3, toh 16 – 3 = 13.",
+      "AI Teacher: Wah! Final answer 13.",
+      "【ProblemID】:165",
+      "【Analysis】: (18 ÷ 3) = 6, (5 × 2) = 10, (6 ÷ 2) = 3, total = 13."
+    ]
+  },
+  {
+    "id": "166",
+    "problem": "A farmer packs (36 ÷ 3) apples in one basket. How many in 5 baskets?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Har basket mein (36 ÷ 3) apples hain. 5 baskets mein kitne honge?",
+      "Student: 36 ÷ 3 = 12 apples ek basket mein.",
+      "AI Teacher: Bohot khoob! Ab 12 × 5 = 60 apples total.",
+      "Student: Matlab 60 apples sab milake.",
+      "AI Teacher: Bilkul sahi! Final answer 60 apples.",
+      "【ProblemID】:166",
+      "【Analysis】: (36 ÷ 3) = 12, 12 × 5 = 60 apples."
+    ]
+  },
+  {
+    "id": "167",
+    "problem": "(72 ÷ 8) + (9 × 2) – 5",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (72 ÷ 8) + (9 × 2) – 5.",
+      "Student: Pehle bracket — 72 ÷ 8 = 9 aur 9 × 2 = 18.",
+      "AI Teacher: Ab 9 + 18 = 27, phir minus 5.",
+      "Student: 27 – 5 = 22.",
+      "AI Teacher: Wah! Final answer 22.",
+      "【ProblemID】:167",
+      "【Analysis】: (72 ÷ 8) = 9, (9 × 2) = 18, 27 – 5 = 22."
+    ]
+  },
+  {
+    "id": "168",
+    "problem": "[(10 + 15) × 2] ÷ 5 + 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ye try karo — [(10 + 15) × 2] ÷ 5 + 8. Pehle kya karna hai?",
+      "Student: Bracket ke andar — 10 + 15 = 25.",
+      "AI Teacher: Ab 25 × 2 = 50. Phir 50 ÷ 5 = 10.",
+      "Student: Phir 10 + 8 = 18.",
+      "AI Teacher: Shabash! Final answer 18.",
+      "【ProblemID】:168",
+      "【Analysis】: (10 + 15) = 25, 25 × 2 = 50, 50 ÷ 5 = 10, 10 + 8 = 18."
+    ]
+  },
+  {
+    "id": "169",
+    "problem": "A car travels (120 ÷ 4) km each hour. How far in (2 + 3) hours?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Car har ghante (120 ÷ 4) km chalti hai. (2 + 3) hours mein kitna chalegi?",
+      "Student: 120 ÷ 4 = 30 km per hour.",
+      "AI Teacher: Sahi! Ab (2 + 3) = 5 hours. 30 × 5 = 150.",
+      "Student: Matlab 150 km total!",
+      "AI Teacher: Bilkul sahi! Final answer 150 km.",
+      "【ProblemID】:169",
+      "【Analysis】: (120 ÷ 4) = 30, (2 + 3) = 5, 30 × 5 = 150 km."
+    ]
+  },
+  {
+    "id": "170",
+    "problem": "(30 + 15 ÷ 3) × 2 – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ye solve karo (30 + 15 ÷ 3) × 2 – 4. Pehle kya karoge?",
+      "Student: 15 ÷ 3 = 5.",
+      "AI Teacher: Bohot acha! Ab 30 + 5 = 35.",
+      "Student: 35 × 2 = 70, phir 70 – 4 = 66.",
+      "AI Teacher: Wah! Tumne sahi kiya. Final answer 66.",
+      "【ProblemID】:170",
+      "【Analysis】: 15 ÷ 3 = 5, 30 + 5 = 35, 35 × 2 = 70, 70 – 4 = 66."
+    ]
+  }
+    {
+    "id": "171",
+    "problem": "(60 ÷ 5) + (12 × 2) – 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (60 ÷ 5) + (12 × 2) – 8. Pehle kya karna chahiye?",
+      "Student: Pehle division — 60 ÷ 5 = 12.",
+      "AI Teacher: Sahi! Ab multiply karo 12 × 2 = 24.",
+      "Student: Ab 12 + 24 – 8 = 28!",
+      "AI Teacher: Wah! Tumne rule sahi follow kiya, answer 28.",
+      "【ProblemID】:171",
+      "【Analysis】: Pehle division, phir multiplication, phir addition aur subtraction. Final answer = 28."
+    ]
+  },
+  {
+    "id": "172",
+    "problem": "(15 + 9 ÷ 3) × 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ye dekho (15 + 9 ÷ 3) × 4. Pehle kya karna hai?",
+      "Student: 9 ÷ 3 = 3.",
+      "AI Teacher: Bohot acha! Ab 15 + 3 = 18.",
+      "Student: Phir 18 × 4 = 72.",
+      "AI Teacher: Shabash! Final answer 72.",
+      "【ProblemID】:172",
+      "【Analysis】: Pehle division, phir addition, phir multiply. Answer 72."
+    ]
+  },
+  {
+    "id": "173",
+    "problem": "A box has (18 + 12 ÷ 3) candies. Find total candies in 5 such boxes.",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Har box mein (18 + 12 ÷ 3) candies hain. 5 boxes mein kitni hongi?",
+      "Student: 12 ÷ 3 = 4. Ab 18 + 4 = 22.",
+      "AI Teacher: Sahi! Ab 22 × 5 = 110.",
+      "Student: Matlab 110 candies total!",
+      "AI Teacher: Bilkul! Tumne perfect solve kiya.",
+      "【ProblemID】:173",
+      "【Analysis】: (18 + 12 ÷ 3) = 22, 22 × 5 = 110 candies."
+    ]
+  },
+  {
+    "id": "174",
+    "problem": "(48 ÷ 6) + (10 × 3) – 12",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (48 ÷ 6) + (10 × 3) – 12.",
+      "Student: Pehle division — 48 ÷ 6 = 8.",
+      "AI Teacher: Sahi! Ab multiplication — 10 × 3 = 30.",
+      "Student: Ab 8 + 30 – 12 = 26.",
+      "AI Teacher: Bohot badhiya! Final answer 26.",
+      "【ProblemID】:174",
+      "【Analysis】: (48 ÷ 6) = 8, (10 × 3) = 30, 8 + 30 – 12 = 26."
+    ]
+  },
+  {
+    "id": "175",
+    "problem": "[(25 + 5) × 2] ÷ 5 + 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ye question dekho [(25 + 5) × 2] ÷ 5 + 4. Kahan se start karte hain?",
+      "Student: Bracket ke andar — 25 + 5 = 30.",
+      "AI Teacher: Sahi! Ab 30 × 2 = 60.",
+      "Student: Phir 60 ÷ 5 = 12, aur 12 + 4 = 16.",
+      "AI Teacher: Wah! Tumne poora sahi kiya, final answer 16.",
+      "【ProblemID】:175",
+      "【Analysis】: (25 + 5) = 30, 30 × 2 = 60, 60 ÷ 5 = 12, 12 + 4 = 16."
+    ]
+  },
+  {
+    "id": "176",
+    "problem": "A train travels (120 ÷ 6) km per hour. How far in (3 + 2) hours?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Train har ghante (120 ÷ 6) km chalti hai. (3 + 2) ghanto mein kitna chalegi?",
+      "Student: 120 ÷ 6 = 20 km/h.",
+      "AI Teacher: Ab (3 + 2) = 5 hours. Toh 20 × 5 = 100.",
+      "Student: Toh total 100 km!",
+      "AI Teacher: Bilkul sahi! Excellent.",
+      "【ProblemID】:176",
+      "【Analysis】: (120 ÷ 6) = 20, (3 + 2) = 5, 20 × 5 = 100 km."
+    ]
+  },
+  {
+    "id": "177",
+    "problem": "(8 + 6 × 3) – (20 ÷ 5)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ye dekho (8 + 6 × 3) – (20 ÷ 5). Pehle kya karna chahiye?",
+      "Student: Pehle multiplication — 6 × 3 = 18.",
+      "AI Teacher: Ab 8 + 18 = 26, aur doosri side (20 ÷ 5) = 4.",
+      "Student: 26 – 4 = 22.",
+      "AI Teacher: Wah! Tumne sahi steps follow kiye.",
+      "【ProblemID】:177",
+      "【Analysis】: (8 + 6 × 3) = 26, (20 ÷ 5) = 4, 26 – 4 = 22."
+    ]
+  },
+  {
+    "id": "178",
+    "problem": "(36 ÷ 3) + (10 + 5 × 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (36 ÷ 3) + (10 + 5 × 2) solve karte hain.",
+      "Student: 36 ÷ 3 = 12 aur 5 × 2 = 10.",
+      "AI Teacher: Ab 10 + 10 = 20, phir 12 + 20 = 32.",
+      "Student: Answer 32!",
+      "AI Teacher: Wah! Tumne sahi rule follow kiya.",
+      "【ProblemID】:178",
+      "【Analysis】: (36 ÷ 3) = 12, (10 + 5 × 2) = 20, total = 32."
+    ]
+  },
+  {
+    "id": "179",
+    "problem": "[(30 + 12) ÷ 3] × 2 – 6",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ye try karo [(30 + 12) ÷ 3] × 2 – 6. Kahan se start karte hain?",
+      "Student: 30 + 12 = 42, phir 42 ÷ 3 = 14.",
+      "AI Teacher: Ab 14 × 2 = 28.",
+      "Student: 28 – 6 = 22.",
+      "AI Teacher: Sahi jawab 22!",
+      "【ProblemID】:179",
+      "【Analysis】: (30 + 12) = 42, 42 ÷ 3 = 14, 14 × 2 = 28, 28 – 6 = 22."
+    ]
+  },
+  {
+    "id": "180",
+    "problem": "[(10 + 20) ÷ (6 – 3)] × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain [(10 + 20) ÷ (6 – 3)] × 2. Pehle kya karna chahiye?",
+      "Student: Bracket mein 10 + 20 = 30, aur 6 – 3 = 3.",
+      "AI Teacher: Ab 30 ÷ 3 = 10, phir 10 × 2 = 20.",
+      "Student: Matlab final answer 20!",
+      "AI Teacher: Bilkul! Tumne poora rule sahi use kiya.",
+      "【ProblemID】:180",
+      "【Analysis】: (10 + 20) = 30, (6 – 3) = 3, 30 ÷ 3 = 10, 10 × 2 = 20."
+    ]
+  }
+    {
+    "id": "181",
+    "problem": "(15 × 2) + (30 ÷ 5) – 6",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo yeh solve karte hain — (15 × 2) + (30 ÷ 5) – 6. Pehle kya karna chahiye?",
+      "Student: Pehle multiply? 15 × 2 = 30.",
+      "AI Teacher: Bohat acha! Ab division — 30 ÷ 5 = 6.",
+      "Student: Ab 30 + 6 – 6 = 30.",
+      "AI Teacher: Bilkul sahi! Final answer hai 30.",
+      "【ProblemID】:181",
+      "【Analysis】: Pehle (15 × 2) = 30, phir (30 ÷ 5) = 6, aur 30 + 6 – 6 = 30."
+    ]
+  },
+  {
+    "id": "182",
+    "problem": "[(25 + 15) ÷ 4] × 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhein [(25 + 15) ÷ 4] × 3. Pehle kya solve karoge?",
+      "Student: Bracket mein — 25 + 15 = 40.",
+      "AI Teacher: Shabash! Ab 40 ÷ 4 = 10, phir multiply 10 × 3 = 30.",
+      "Student: Answer 30!",
+      "AI Teacher: Bilkul perfect!",
+      "【ProblemID】:182",
+      "【Analysis】: (25 + 15) = 40, 40 ÷ 4 = 10, 10 × 3 = 30."
+    ]
+  },
+  {
+    "id": "183",
+    "problem": "(60 ÷ 5) × (8 – 3) + 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo (60 ÷ 5) × (8 – 3) + 2 solve karte hain.",
+      "Student: 60 ÷ 5 = 12 aur (8 – 3) = 5.",
+      "AI Teacher: Ab 12 × 5 = 60, aur 60 + 2 = 62.",
+      "Student: Toh answer 62 hai!",
+      "AI Teacher: Wah, bilkul theek!",
+      "【ProblemID】:183",
+      "【Analysis】: (60 ÷ 5) = 12, (8 – 3) = 5, 12 × 5 = 60, 60 + 2 = 62."
+    ]
+  },
+  {
+    "id": "184",
+    "problem": "[(9 + 12) ÷ 3] + (5 × 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Yeh solve karo — [(9 + 12) ÷ 3] + (5 × 2). Pehle kya karna hai?",
+      "Student: Bracket mein addition — 9 + 12 = 21.",
+      "AI Teacher: Ab 21 ÷ 3 = 7, aur 5 × 2 = 10.",
+      "Student: 7 + 10 = 17.",
+      "AI Teacher: Sahi jawab — 17!",
+      "【ProblemID】:184",
+      "【Analysis】: (9 + 12) = 21, 21 ÷ 3 = 7, (5 × 2) = 10, 7 + 10 = 17."
+    ]
+  },
+  {
+    "id": "185",
+    "problem": "A factory makes (40 ÷ 4) boxes daily. How many in (5 + 3) days?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Ek factory har din (40 ÷ 4) boxes banati hai. (5 + 3) din mein kitne boxes banenge?",
+      "Student: 40 ÷ 4 = 10 boxes per day.",
+      "AI Teacher: Ab (5 + 3) = 8 din, toh 10 × 8 = 80.",
+      "Student: 80 boxes!",
+      "AI Teacher: Sahi! Tumhara jawab bilkul theek hai.",
+      "【ProblemID】:185",
+      "【Analysis】: (40 ÷ 4) = 10, (5 + 3) = 8, 10 × 8 = 80 boxes."
+    ]
+  },
+  {
+    "id": "186",
+    "problem": "(18 ÷ 3 + 5) × 2 – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekho (18 ÷ 3 + 5) × 2 – 4. Pehle kya karenge?",
+      "Student: Pehle division — 18 ÷ 3 = 6.",
+      "AI Teacher: Ab 6 + 5 = 11, phir 11 × 2 = 22.",
+      "Student: 22 – 4 = 18.",
+      "AI Teacher: Bohat accha, final answer 18!",
+      "【ProblemID】:186",
+      "【Analysis】: 18 ÷ 3 = 6, 6 + 5 = 11, 11 × 2 = 22, 22 – 4 = 18."
+    ]
+  },
+  {
+    "id": "187",
+    "problem": "[(16 + 4) × 2] ÷ (5 – 3)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo [(16 + 4) × 2] ÷ (5 – 3).",
+      "Student: Pehle bracket — 16 + 4 = 20, 20 × 2 = 40.",
+      "AI Teacher: Ab (5 – 3) = 2, aur 40 ÷ 2 = 20.",
+      "Student: Final answer 20!",
+      "AI Teacher: Excellent, bilkul sahi!",
+      "【ProblemID】:187",
+      "【Analysis】: (16 + 4) = 20, 20 × 2 = 40, (5 – 3) = 2, 40 ÷ 2 = 20."
+    ]
+  },
+  {
+    "id": "188",
+    "problem": "(25 – 10) × (12 ÷ 3) + 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: (25 – 10) × (12 ÷ 3) + 8. Pehle kya karenge?",
+      "Student: Bracket pehle — 25 – 10 = 15, 12 ÷ 3 = 4.",
+      "AI Teacher: Ab 15 × 4 = 60, aur 60 + 8 = 68.",
+      "Student: Toh answer 68 hai!",
+      "AI Teacher: Wah! Sahi jawab.",
+      "【ProblemID】:188",
+      "【Analysis】: (25 – 10) = 15, (12 ÷ 3) = 4, 15 × 4 = 60, 60 + 8 = 68."
+    ]
+  },
+  {
+    "id": "189",
+    "problem": "(100 ÷ 10) + (8 × 3) – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain (100 ÷ 10) + (8 × 3) – 4.",
+      "Student: 100 ÷ 10 = 10, aur 8 × 3 = 24.",
+      "AI Teacher: Ab 10 + 24 = 34, phir 34 – 4 = 30.",
+      "Student: Final answer 30!",
+      "AI Teacher: Shabash, bilkul perfect!",
+      "【ProblemID】:189",
+      "【Analysis】: (100 ÷ 10) = 10, (8 × 3) = 24, 10 + 24 – 4 = 30."
+    ]
+  },
+  {
+    "id": "190",
+    "problem": "[(8 + 12) ÷ 4] × (6 + 3)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo [(8 + 12) ÷ 4] × (6 + 3).",
+      "Student: Bracket mein 8 + 12 = 20.",
+      "AI Teacher: Ab 20 ÷ 4 = 5, aur (6 + 3) = 9.",
+      "Student: 5 × 9 = 45.",
+      "AI Teacher: Bohat accha! Final answer 45.",
+      "【ProblemID】:190",
+      "【Analysis】: (8 + 12) = 20, (6 + 3) = 9, 20 ÷ 4 = 5, 5 × 9 = 45."
+    ]
+  }
+    {
+    "id": "191",
+    "problem": "(36 ÷ 6) + (8 × 2) – 4",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo shuru karte hain — (36 ÷ 6) + (8 × 2) – 4. Batao pehle kya karna chahiye?",
+      "Student: Pehle division — 36 ÷ 6 = 6.",
+      "AI Teacher: Bilkul sahi! Ab 8 × 2 = 16.",
+      "Student: Phir 6 + 16 – 4 = 18.",
+      "AI Teacher: Wah! Final answer hai 18.",
+      "【ProblemID】:191",
+      "【Analysis】: Pehle division phir multiplication, phir addition aur subtraction → answer 18."
+    ]
+  },
+  {
+    "id": "192",
+    "problem": "[(12 + 18) ÷ 6] × (5 + 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo [(12 + 18) ÷ 6] × (5 + 2). Kis bracket se shuru karein?",
+      "Student: Pehle (12 + 18) = 30.",
+      "AI Teacher: Bohat khoob! Ab 30 ÷ 6 = 5.",
+      "Student: Phir (5 + 2) = 7 aur 5 × 7 = 35.",
+      "AI Teacher: Perfect! Answer hai 35.",
+      "【ProblemID】:192",
+      "【Analysis】: (12 + 18) = 30, 30 ÷ 6 = 5, (5 + 2) = 7, 5 × 7 = 35."
+    ]
+  },
+  {
+    "id": "193",
+    "problem": "(48 ÷ 8) + 9 × (3 + 2)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo dekhte hain (48 ÷ 8) + 9 × (3 + 2).",
+      "Student: 48 ÷ 8 = 6 aur (3 + 2) = 5.",
+      "AI Teacher: Ab 9 × 5 = 45.",
+      "Student: 6 + 45 = 51.",
+      "AI Teacher: Bohat accha! Answer 51.",
+      "【ProblemID】:193",
+      "【Analysis】: Pehle division, phir brackets, phir multiply aur add → total 51."
+    ]
+  },
+  {
+    "id": "194",
+    "problem": "A class has 36 students divided equally into 6 groups. Each group buys 5 notebooks. How many notebooks in total?",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: 36 students ko 6 groups mein divide kiya gaya hai. Har group 5 notebooks leta hai. Pehla step kya hai?",
+      "Student: 36 ÷ 6 = 6 students per group.",
+      "AI Teacher: Sahi! Ab har group 5 notebooks leta hai. 6 × 5 = 30.",
+      "Student: Matlab total 30 notebooks!",
+      "AI Teacher: Shabash!",
+      "【ProblemID】:194",
+      "【Analysis】: 36 ÷ 6 = 6, 6 × 5 = 30 notebooks total."
+    ]
+  },
+  {
+    "id": "195",
+    "problem": "[(45 – 15) ÷ 5] × 3",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo [(45 – 15) ÷ 5] × 3.",
+      "Student: Pehle bracket — 45 – 15 = 30.",
+      "AI Teacher: Ab 30 ÷ 5 = 6.",
+      "Student: Phir 6 × 3 = 18.",
+      "AI Teacher: Wah! Answer 18.",
+      "【ProblemID】:195",
+      "【Analysis】: Pehle minus, phir divide, phir multiply → 18."
+    ]
+  },
+  {
+    "id": "196",
+    "problem": "[(60 ÷ 3) + (9 × 2)] – 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekho [(60 ÷ 3) + (9 × 2)] – 8, pehle kya karte hain?",
+      "Student: Pehle brackets — 60 ÷ 3 = 20 aur 9 × 2 = 18.",
+      "AI Teacher: Ab dono add karo — 20 + 18 = 38.",
+      "Student: Phir 38 – 8 = 30.",
+      "AI Teacher: Bohat sahi! Answer 30.",
+      "【ProblemID】:196",
+      "【Analysis】: Pehle division aur multiplication, phir add aur subtract → 30."
+    ]
+  },
+  {
+    "id": "197",
+    "problem": "[(24 ÷ 6) + (8 – 3)] × 2",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo solve karte hain [(24 ÷ 6) + (8 – 3)] × 2.",
+      "Student: 24 ÷ 6 = 4 aur 8 – 3 = 5.",
+      "AI Teacher: Ab dono add karo — 4 + 5 = 9.",
+      "Student: Phir 9 × 2 = 18.",
+      "AI Teacher: Shandaar! Answer 18.",
+      "【ProblemID】:197",
+      "【Analysis】: 24 ÷ 6 = 4, 8 – 3 = 5, 4 + 5 = 9, 9 × 2 = 18."
+    ]
+  },
+  {
+    "id": "198",
+    "problem": "(9 × 3) – (15 ÷ 3) + 8",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Chalo try karte hain (9 × 3) – (15 ÷ 3) + 8.",
+      "Student: 9 × 3 = 27 aur 15 ÷ 3 = 5.",
+      "AI Teacher: Ab 27 – 5 + 8 = 30.",
+      "Student: Answer 30!",
+      "AI Teacher: Zabardast!",
+      "【ProblemID】:198",
+      "【Analysis】: Pehle multiply aur divide, phir subtract aur add → 30."
+    ]
+  },
+  {
+    "id": "199",
+    "problem": "[(40 ÷ 4) + (6 × 2)] – (9 – 3)",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Dekhte hain [(40 ÷ 4) + (6 × 2)] – (9 – 3). Kya karna hai pehle?",
+      "Student: 40 ÷ 4 = 10 aur 6 × 2 = 12.",
+      "AI Teacher: Ab (10 + 12) = 22.",
+      "Student: (9 – 3) = 6, phir 22 – 6 = 16.",
+      "AI Teacher: Bohat accha! Answer 16.",
+      "【ProblemID】:199",
+      "【Analysis】: Pehle brackets ke andar, phir subtraction → final 16."
+    ]
+  },
+  {
+    "id": "200",
+    "problem": "(50 ÷ 10) × (6 + 9) – 7",
+    "topic": "Numbers and Arithmetic Operations",
+    "sub-topic": "Order of Operation (BODMAS Rule)",
+    "conversation": [
+      "AI Teacher: Solve karo (50 ÷ 10) × (6 + 9) – 7.",
+      "Student: 50 ÷ 10 = 5 aur (6 + 9) = 15.",
+      "AI Teacher: Ab 5 × 15 = 75.",
+      "Student: Phir 75 – 7 = 68.",
+      "AI Teacher: Perfect! Final answer 68.",
+      "【ProblemID】:200",
+      "【Analysis】: Pehle divide aur bracket solve karo, phir multiply aur subtract → 68."
+    ]
+  }
+]
